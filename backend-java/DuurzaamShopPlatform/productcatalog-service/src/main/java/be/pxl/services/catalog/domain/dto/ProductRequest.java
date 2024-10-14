@@ -1,22 +1,17 @@
-package be.pxl.services.catalog.domain;
+package be.pxl.services.catalog.domain.dto;
 
-import jakarta.persistence.*;
+import be.pxl.services.catalog.domain.Category;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.time.LocalDate;
-
 @Data
 @Builder
-@AllArgsConstructor
 @NoArgsConstructor
-@Entity
-public class Product {
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    @Column(name = "id", nullable = false)
+@AllArgsConstructor
+public class ProductRequest {
     private Long id;
     private String name;
     private String label;
@@ -24,6 +19,4 @@ public class Product {
     private Category category;
     private Double price;
     private LocalDate added = LocalDate.now();
-
-
 }
