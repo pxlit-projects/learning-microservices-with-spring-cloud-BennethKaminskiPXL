@@ -24,26 +24,26 @@ public class ShoppingCartController {
 
     @PostMapping("/{cartId}/addProduct/{productId}")
     @ResponseStatus(HttpStatus.ACCEPTED)
-    public void addProductToCart(long cartId, long productId) {
+    public void addProductToCart(@PathVariable Long cartId,@PathVariable Long productId) {
         cartService.addProductToCart(cartId, productId);
     }
 
     @DeleteMapping("/{cartId}/removeProduct/{productId}")
     @ResponseStatus(HttpStatus.ACCEPTED)
-    public void removeProductFromCart(long cartId, long productId) {
+    public void removeProductFromCart(@PathVariable Long cartId,@PathVariable Long productId) {
         cartService.removeProductFromCart(cartId, productId);
     }
 
     //producten in cart zien
     @GetMapping("/{cartId}/products")
     @ResponseStatus(HttpStatus.OK)
-    public List<CartProductResponse> getProductsInCart(long cartId) {
+    public List<CartProductResponse> getProductsInCart(@PathVariable Long cartId) {
       return cartService.getProductsInCart(cartId);
     }
 
     @PostMapping("/{cartId}/checkout")
     @ResponseStatus(HttpStatus.ACCEPTED)
-    public CartCheckoutResponse checkout(long cartId) {
+    public CartCheckoutResponse checkout(@PathVariable Long cartId) {
       return   cartService.checkout(cartId);
     }
 

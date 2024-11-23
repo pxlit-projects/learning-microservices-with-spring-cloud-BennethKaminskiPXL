@@ -1,7 +1,9 @@
 package be.pxl.services.catalog.services;
 
+import be.pxl.services.catalog.client.LogbookClient;
 import be.pxl.services.catalog.domain.Category;
 import be.pxl.services.catalog.domain.Product;
+import be.pxl.services.catalog.domain.dto.NotificationRequest;
 import be.pxl.services.catalog.domain.dto.ProductRequest;
 import be.pxl.services.catalog.domain.dto.ProductResponse;
 import be.pxl.services.catalog.repository.CatalogRepository;
@@ -15,11 +17,17 @@ import java.util.List;
 @RequiredArgsConstructor
 public class CatalogService implements ICatalogService{
     private final CatalogRepository catalogRepository;
+    private final LogbookClient logbookClient;
 
     @Override
     public void addProduct(ProductRequest productRequest) {
         Product product = mapToProduct(productRequest);
         catalogRepository.save(product);
+        NotificationRequest notificationRequest = NotificationRequest.builder()
+                .message("Product added")
+                .sender("CatalogService")
+                .build();
+        logbookClient.sendNotification(notificationRequest);
     }
 
     @Override
@@ -30,7 +38,7 @@ public class CatalogService implements ICatalogService{
     }
 
     @Override
-    public ResponseEntity<ProductResponse> updateProduct(Long id, ProductRequest productRequest) {
+    public ProductResponse updateProduct(Long id, ProductRequest productRequest) {
         Product product = catalogRepository.findById(id).orElseThrow();
         product.setLabel(productRequest.getLabel());
         product.setPrice(productRequest.getPrice());
@@ -38,7 +46,7 @@ public class CatalogService implements ICatalogService{
         product.setCategory(productRequest.getCategory());
         product.setDescription(productRequest.getDescription());
         catalogRepository.save(product);
-        return ResponseEntity.ok(mapToProductResponse(product));
+        return mapToProductResponse(product);
     }
 
     @Override

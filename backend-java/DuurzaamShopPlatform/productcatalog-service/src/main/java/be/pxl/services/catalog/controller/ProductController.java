@@ -30,7 +30,7 @@ public class ProductController {
 
     @PutMapping("/{id}")
     @ResponseStatus(HttpStatus.ACCEPTED)
-    public ResponseEntity<ProductResponse> updateProduct(@PathVariable Long id, @RequestBody ProductRequest productRequest) {
+    public ProductResponse updateProduct(@PathVariable Long id, @RequestBody ProductRequest productRequest) {
     return
         catalogService.updateProduct(id, productRequest);
     }

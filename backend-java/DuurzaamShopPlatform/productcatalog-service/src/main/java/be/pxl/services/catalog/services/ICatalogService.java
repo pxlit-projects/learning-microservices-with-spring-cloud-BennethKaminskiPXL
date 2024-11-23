@@ -11,7 +11,7 @@ public interface ICatalogService {
 
     ResponseEntity<List<ProductResponse>> getProducts();
 
-    ResponseEntity<ProductResponse> updateProduct(Long id, ProductRequest productRequest);
+    ProductResponse updateProduct(Long id, ProductRequest productRequest);
 
     ResponseEntity<List<ProductResponse>> getProductsByCategory(String category);
 
