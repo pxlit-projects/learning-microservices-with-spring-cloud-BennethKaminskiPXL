@@ -8,11 +8,12 @@ import lombok.NoArgsConstructor;
 
 import java.time.LocalDate;
 
-@Data
+@Data //setters, getters, equesls, hashcode, tostring
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
+@Table(name = "products")
 public class Product {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)

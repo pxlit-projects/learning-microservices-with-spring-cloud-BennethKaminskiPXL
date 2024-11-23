@@ -1,0 +1,49 @@
+
+services:
+  mysql-catalog-service:
+    image: mysql:8.0
+    container_name: mysql_catalog
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: catalogservice_db
+    ports:
+      - "3307:3306"
+    networks:
+      - springboot-microservices-network
+
+  mysql-shoppingcart-service:
+    image: mysql:8.0
+    container_name: mysql_shoppingcart
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: shoppingcartservice_db
+    ports:
+      - "3308:3306"
+    networks:
+      - springboot-microservices-network
+
+  mysql-logbook-service:
+    image: mysql:8.0
+    container_name: mysql_logbook
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: logbookservice_db
+    ports:
+      - "3309:3306"
+    networks:
+      - springboot-microservices-network
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin:latest
+    container_name: phpmyadmin
+    environment:
+      PMA_HOSTS: mysql_catalog,mysql_shoppingcart,mysql_logbook
+      MYSQL_ROOT_PASSWORD: root
+    ports:
+      - "8090:80"
+    networks:
+      - springboot-microservices-network
+
+networks:
+  springboot-microservices-network:
+    driver: bridge

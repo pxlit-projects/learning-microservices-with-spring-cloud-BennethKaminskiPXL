@@ -28,4 +28,22 @@ public class ProductController {
         return catalogService.getProducts();
     }
 
+    @PutMapping("/{id}")
+    @ResponseStatus(HttpStatus.ACCEPTED)
+    public ResponseEntity<ProductResponse> updateProduct(@PathVariable Long id, @RequestBody ProductRequest productRequest) {
+    return
+        catalogService.updateProduct(id, productRequest);
+    }
+
+    @GetMapping("/category/{category}")
+    @ResponseStatus(HttpStatus.OK)
+    public ResponseEntity<List<ProductResponse>> getProductsByCategory(@PathVariable String category){
+        return catalogService.getProductsByCategory(category);
+    }
+
+    @GetMapping("/label/{label}")
+    @ResponseStatus(HttpStatus.OK)
+    public ResponseEntity<List<ProductResponse>> getProductsByLabel(@PathVariable String label){
+        return catalogService.getProductsByLabel(label);
+    }
 }

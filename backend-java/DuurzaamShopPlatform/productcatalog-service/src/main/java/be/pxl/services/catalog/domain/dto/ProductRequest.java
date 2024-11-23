@@ -12,7 +12,6 @@ import java.time.LocalDate;
 @NoArgsConstructor
 @AllArgsConstructor
 public class ProductRequest {
-    private Long id;
     private String name;
     private String label;
     private String description;
