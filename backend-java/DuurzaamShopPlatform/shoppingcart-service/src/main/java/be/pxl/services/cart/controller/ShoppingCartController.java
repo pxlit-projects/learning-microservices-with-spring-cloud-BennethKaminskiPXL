@@ -44,7 +44,7 @@ public class ShoppingCartController {
     @PostMapping("/{cartId}/checkout")
     @ResponseStatus(HttpStatus.ACCEPTED)
     public CartCheckoutResponse checkout(long cartId) {
-        cartService.checkout(cartId);
+      return   cartService.checkout(cartId);
     }
 
 }
