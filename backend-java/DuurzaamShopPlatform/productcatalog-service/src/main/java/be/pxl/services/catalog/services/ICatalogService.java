@@ -16,4 +16,6 @@ public interface ICatalogService {
     ResponseEntity<List<ProductResponse>> getProductsByCategory(String category);
 
     ResponseEntity<List<ProductResponse>> getProductsByLabel(String label);
+
+    void deleteProduct(String userName, Long id);
 }

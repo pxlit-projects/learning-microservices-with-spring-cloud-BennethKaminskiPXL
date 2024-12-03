@@ -20,7 +20,7 @@ public class ShoppingCart {
     @Column(name = "id", nullable = false)
     private Long id;
     @Transient
-    private List<Product> products;
+    private List<Product> shoppingCartItems;
     private double totalPrice = 0;
 
 
