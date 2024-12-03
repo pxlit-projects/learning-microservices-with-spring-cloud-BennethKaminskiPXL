@@ -11,6 +11,7 @@
         <module name="config-service" />
         <module name="logbook-service" />
         <module name="discovery-service" />
+        <module name="gateway-service" />
         <module name="productcatalog-service" />
       </profile>
     </annotationProcessing>
@@ -19,6 +20,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="config-service" options="-parameters" />
       <module name="discovery-service" options="-parameters" />
+      <module name="gateway-service" options="-parameters" />
       <module name="logbook-service" options="-parameters" />
       <module name="productcatalog-service" options="-parameters" />
       <module name="shoppingcart-service" options="-parameters" />
