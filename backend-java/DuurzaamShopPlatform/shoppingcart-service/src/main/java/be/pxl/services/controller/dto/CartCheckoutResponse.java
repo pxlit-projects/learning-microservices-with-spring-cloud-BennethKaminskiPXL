@@ -1,6 +1,7 @@
 package be.pxl.services.controller.dto;
 
 import be.pxl.services.domain.Product;
+import be.pxl.services.domain.ShoppingCartItem;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -15,5 +16,5 @@ import java.util.List;
 public class CartCheckoutResponse {
     private long Id;
     private double totalPrice;
-    private List<Product> products;
+    private List<ShoppingCartItem> products;
 }

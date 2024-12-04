@@ -26,34 +26,13 @@ public class ShoppingCartController {
        return cartService.createCart();
     }
 
-    //openFeigns voor producten
-    //product adden
-    @PostMapping("/product")
-    @ResponseStatus(HttpStatus.CREATED)
-    public void addProduct(@RequestBody ShoppingCartRequest shoppingCartRequest) {
-        log.info("Adding product with name in shoppingcart-service: " + shoppingCartRequest.getName());
-        cartService.addProduct(shoppingCartRequest);
-    }
-    //product wijzigen
-    @PutMapping("/product")
-    @ResponseStatus(HttpStatus.ACCEPTED)
-    public void updateProduct(@RequestBody ShoppingCartRequest shoppingCartRequest) {
-        cartService.updateProduct(shoppingCartRequest);
-    }
-    //product verwijderen
-    @DeleteMapping("/product")
-    @ResponseStatus(HttpStatus.ACCEPTED)
-    public void deleteProduct(@RequestBody ShoppingCartRequest shoppingCartRequest) {
-        cartService.deleteProduct(shoppingCartRequest);
-    }
-
 
     //producten in cart toevoegen (met quantity in frontend, standaard = 1)
-    @PostMapping("/{cartId}/addProduct/{productId}")
+    @PostMapping("/{cartId}/addProduct/{productId}/{quantity}")
     @ResponseStatus(HttpStatus.ACCEPTED)
-    public void addProductToCart(@PathVariable Long cartId, @PathVariable Long productId) {
+    public void addProductToCart(@PathVariable Long cartId, @PathVariable Long productId, @PathVariable int quantity) {
         log.info("Adding product with id: " + productId + " to cart with id: " + cartId);
-        cartService.addProductToCart(cartId, productId);
+        cartService.addProductToCart(cartId, productId,quantity);
     }
 
     //producten in cart verwijderen

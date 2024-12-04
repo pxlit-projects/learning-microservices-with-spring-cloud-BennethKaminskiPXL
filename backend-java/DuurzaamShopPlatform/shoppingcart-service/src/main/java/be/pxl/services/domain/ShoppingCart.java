@@ -20,9 +20,9 @@ public class ShoppingCart {
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "id", nullable = false)
     private Long id;
-    @OneToMany(cascade = CascadeType.ALL, orphanRemoval = true)
+    @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
     @JoinColumn(name = "shopping_cart_id")
-    private List<Product> shoppingCartItems = new ArrayList<>();
-    private double totalPrice = 0;
+    private List<ShoppingCartItem> shoppingCartItems;
+    private double totalPrice ;
 
 }

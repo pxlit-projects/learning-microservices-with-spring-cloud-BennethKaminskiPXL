@@ -131,6 +131,12 @@ public class CatalogService implements ICatalogService{
 
     }
 
+    @Override
+    public ProductResponse getProductById(Long id) {
+        var product = catalogRepository.findById(id).orElseThrow();
+        return mapToProductResponse(product);
+    }
+
     //voor rabbitmq
     public ProductRequest mapToProductRequest(Product product) {
         return ProductRequest.builder()

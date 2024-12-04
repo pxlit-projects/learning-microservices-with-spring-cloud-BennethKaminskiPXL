@@ -35,6 +35,14 @@ public class ProductController {
         return catalogService.getProducts();
     }
 
+    //producten opvragen op id
+    @GetMapping("/{id}")
+    @ResponseStatus(HttpStatus.OK)
+    public ProductResponse getProductById(@PathVariable Long id){
+        log.info("Getting product with id : " + id);
+        return catalogService.getProductById(id);
+    }
+
     //producten verwijderen
     @DeleteMapping("/{userName}/{id}")
     @ResponseStatus(HttpStatus.ACCEPTED)
