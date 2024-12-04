@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/backend-java.iml" filepath="$PROJECT_DIR$/.idea/backend-java.iml" />
       <module fileurl="file://$PROJECT_DIR$/DuurzaamShopPlatform/productcatalog-service/productcatalog-service.iml" filepath="$PROJECT_DIR$/DuurzaamShopPlatform/productcatalog-service/productcatalog-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DuurzaamShopPlatform/shoppingcart-service/shoppingcart-service.iml" filepath="$PROJECT_DIR$/DuurzaamShopPlatform/shoppingcart-service/shoppingcart-service.iml" />
     </modules>
   </component>
 </project>
