@@ -7,6 +7,7 @@ import ProductChangeView from '@/views/ProductChangeView.vue'
 import ProductSearchView from '@/views/ProductSearchView.vue'
 import ShopHomeView from '@/views/ShopHomeView.vue'
 import ShopCartView from '@/views/ShopCartView.vue'
+import ShopCheckoutView from '@/views/ShopCheckoutView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -58,6 +59,11 @@ const router = createRouter({
       path: '/shop/cart',
       name: 'cart',
       component:ShopCartView,
+    },
+    {
+      path: '/shop/checkout',
+      name: 'checkout',
+      component:ShopCheckoutView,
     }
    
   ],

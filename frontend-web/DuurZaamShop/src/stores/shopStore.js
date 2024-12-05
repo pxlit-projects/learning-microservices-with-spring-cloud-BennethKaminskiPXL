@@ -9,6 +9,8 @@ export const useShopStore = defineStore('shop', () => {
   const cartApiItems = ref([]);
   const productStore = useCatalogStore();
   const cart = ref(localStorage.getItem("cartNumber") || null);
+  const cartCheckoutItems = ref([]);
+  const totalPrice = ref(0);
 
   const addToCart = async (product, quantity) => {
     //puur voor UI
@@ -75,6 +77,20 @@ try {
     }
   }
 
+  const checkout = async () => {
+    try {
+      const response = await axios.post(`http://localhost:8089/cart/api/cart/${cart.value}/checkout`);
+      console.log("Checkout successful:", response.data);
+      cartCheckoutItems.value = response.data.products;
+      totalPrice.value = response.data.totalPrice;
+      console.log("Total price:", totalPrice.value);
+      console.log("Checkout items:", cartCheckoutItems.value);
+      
+    } catch (error) {
+      console.error("Error checking out:", error);
+
+  }
+  };
   
 
   return {
@@ -85,6 +101,9 @@ try {
     cart,
     cartApiItems,
     getProductsInCart,
-    removeProductFromCart
+    removeProductFromCart,
+    checkout,
+    cartCheckoutItems,
+    totalPrice
   };
 });

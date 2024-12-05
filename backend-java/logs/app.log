@@ -530,3 +530,47 @@
 2024-12-05T15:45:32.866+0100 INFO               [http-nio-8082-exec-10]        be.pxl.services.services.CartService - Shoppingcart has item : 2 itemstest2
 2024-12-05T15:45:34.359+0100 INFO               [http-nio-8081-exec-7]         be.pxl.services.controller.ProductController - Getting product with id : 552
 2024-12-05T15:46:43.824+0100 INFO               [http-nio-8081-exec-10]        be.pxl.services.controller.ProductController - Getting product with id : 552
+2024-12-05T15:48:21.851+0100 INFO               [main]                         be.pxl.services.ShoppingCartServiceApp - Starting ShoppingCartServiceApp using Java 21.0.2 with PID 16908 (D:\fullstack Java Labs\learning-microservices-with-spring-cloud-BennethKaminskiPXL\backend-java\DuurzaamShopPlatform\shoppingcart-service\target\classes started by kamin in D:\fullstack Java Labs\learning-microservices-with-spring-cloud-BennethKaminskiPXL\backend-java)
+2024-12-05T15:48:21.852+0100 DEBUG              [main]                         be.pxl.services.ShoppingCartServiceApp - Running with Spring Boot v3.3.4, Spring v6.1.13
+2024-12-05T15:48:21.853+0100 INFO               [main]                         be.pxl.services.ShoppingCartServiceApp - No active profile set, falling back to 1 default profile: "default"
+2024-12-05T15:48:25.431+0100 INFO               [main]                         be.pxl.services.ShoppingCartServiceApp - Started ShoppingCartServiceApp in 4.446 seconds (process running for 5.048)
+2024-12-05T15:49:45.523+0100 INFO               [http-nio-8081-exec-6]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T15:49:46.736+0100 INFO               [http-nio-8082-exec-3]         be.pxl.services.controller.ShoppingCartController - Adding product with id: 503 to cart with id: 252
+2024-12-05T15:49:46.802+0100 INFO               [http-nio-8081-exec-1]         be.pxl.services.controller.ProductController - Getting product with id : 503
+2024-12-05T15:49:46.863+0100 INFO               [http-nio-8082-exec-3]         be.pxl.services.services.CartService - Product with id503  added to cart
+2024-12-05T15:49:46.863+0100 INFO               [http-nio-8082-exec-3]         be.pxl.services.services.CartService - Shoppingcart has item : 1 itemstest2
+2024-12-05T15:49:46.901+0100 INFO               [http-nio-8082-exec-4]         be.pxl.services.controller.ShoppingCartController - Adding product with id: 503 to cart with id: 252
+2024-12-05T15:49:46.909+0100 INFO               [http-nio-8081-exec-2]         be.pxl.services.controller.ProductController - Getting product with id : 503
+2024-12-05T15:49:46.914+0100 INFO               [http-nio-8082-exec-4]         be.pxl.services.services.CartService - Product with id503  added to cart
+2024-12-05T15:49:47.058+0100 INFO               [http-nio-8082-exec-5]         be.pxl.services.controller.ShoppingCartController - Adding product with id: 503 to cart with id: 252
+2024-12-05T15:49:47.066+0100 INFO               [http-nio-8081-exec-4]         be.pxl.services.controller.ProductController - Getting product with id : 503
+2024-12-05T15:49:47.073+0100 INFO               [http-nio-8082-exec-5]         be.pxl.services.services.CartService - Product with id503  added to cart
+2024-12-05T15:49:47.578+0100 INFO               [http-nio-8082-exec-6]         be.pxl.services.controller.ShoppingCartController - Adding product with id: 552 to cart with id: 252
+2024-12-05T15:49:47.588+0100 INFO               [http-nio-8081-exec-3]         be.pxl.services.controller.ProductController - Getting product with id : 552
+2024-12-05T15:49:47.611+0100 INFO               [http-nio-8082-exec-6]         be.pxl.services.services.CartService - Product with id552  added to cart
+2024-12-05T15:49:47.612+0100 INFO               [http-nio-8082-exec-6]         be.pxl.services.services.CartService - Shoppingcart has item : 2 itemstest2
+2024-12-05T15:49:47.745+0100 INFO               [http-nio-8082-exec-7]         be.pxl.services.controller.ShoppingCartController - Adding product with id: 552 to cart with id: 252
+2024-12-05T15:49:47.755+0100 INFO               [http-nio-8081-exec-7]         be.pxl.services.controller.ProductController - Getting product with id : 552
+2024-12-05T15:49:47.761+0100 INFO               [http-nio-8082-exec-7]         be.pxl.services.services.CartService - Product with id552  added to cart
+2024-12-05T15:49:49.842+0100 INFO               [http-nio-8081-exec-8]         be.pxl.services.controller.ProductController - Getting product with id : 552
+2024-12-05T15:49:49.848+0100 INFO               [http-nio-8082-exec-9]         be.pxl.services.services.CartService - 1 Product with id552  removed from cart with id252
+2024-12-05T15:49:52.412+0100 INFO               [http-nio-8081-exec-5]         be.pxl.services.controller.ProductController - Getting product with id : 552
+2024-12-05T15:49:52.419+0100 INFO               [http-nio-8082-exec-1]         be.pxl.services.services.CartService - Product with id552  removed from cart with id252
+2024-12-05T15:49:57.390+0100 INFO               [http-nio-8081-exec-10]        be.pxl.services.controller.ProductController - Getting product with id : 503
+2024-12-05T15:49:57.395+0100 INFO               [http-nio-8082-exec-3]         be.pxl.services.services.CartService - 1 Product with id503  removed from cart with id252
+2024-12-05T15:49:58.216+0100 INFO               [http-nio-8081-exec-9]         be.pxl.services.controller.ProductController - Getting product with id : 503
+2024-12-05T15:49:58.222+0100 INFO               [http-nio-8082-exec-5]         be.pxl.services.services.CartService - 1 Product with id503  removed from cart with id252
+2024-12-05T15:49:58.643+0100 INFO               [http-nio-8081-exec-6]         be.pxl.services.controller.ProductController - Getting product with id : 503
+2024-12-05T15:49:58.650+0100 INFO               [http-nio-8082-exec-7]         be.pxl.services.services.CartService - Product with id503  removed from cart with id252
+2024-12-05T17:58:15.472+0100 INFO               [main]                         be.pxl.services.ProductCatalogApp - Starting ProductCatalogApp using Java 21.0.2 with PID 29252 (D:\fullstack Java Labs\learning-microservices-with-spring-cloud-BennethKaminskiPXL\backend-java\DuurzaamShopPlatform\productcatalog-service\target\classes started by kamin in D:\fullstack Java Labs\learning-microservices-with-spring-cloud-BennethKaminskiPXL\backend-java)
+2024-12-05T17:58:15.474+0100 DEBUG              [main]                         be.pxl.services.ProductCatalogApp - Running with Spring Boot v3.3.4, Spring v6.1.13
+2024-12-05T17:58:15.474+0100 INFO               [main]                         be.pxl.services.ProductCatalogApp - No active profile set, falling back to 1 default profile: "default"
+2024-12-05T17:58:19.098+0100 INFO               [main]                         be.pxl.services.ShoppingCartServiceApp - Starting ShoppingCartServiceApp using Java 21.0.2 with PID 11872 (D:\fullstack Java Labs\learning-microservices-with-spring-cloud-BennethKaminskiPXL\backend-java\DuurzaamShopPlatform\shoppingcart-service\target\classes started by kamin in D:\fullstack Java Labs\learning-microservices-with-spring-cloud-BennethKaminskiPXL\backend-java)
+2024-12-05T17:58:19.099+0100 DEBUG              [main]                         be.pxl.services.ShoppingCartServiceApp - Running with Spring Boot v3.3.4, Spring v6.1.13
+2024-12-05T17:58:19.099+0100 INFO               [main]                         be.pxl.services.ShoppingCartServiceApp - No active profile set, falling back to 1 default profile: "default"
+2024-12-05T17:58:20.227+0100 INFO               [main]                         be.pxl.services.ProductCatalogApp - Started ProductCatalogApp in 5.547 seconds (process running for 7.212)
+2024-12-05T17:58:23.072+0100 INFO               [main]                         be.pxl.services.ShoppingCartServiceApp - Started ShoppingCartServiceApp in 4.867 seconds (process running for 5.547)
+2024-12-05T17:58:27.562+0100 INFO               [main]                         be.pxl.services.LogbookServiceApp - Starting LogbookServiceApp using Java 21 with PID 25372 (D:\fullstack Java Labs\learning-microservices-with-spring-cloud-BennethKaminskiPXL\backend-java\DuurzaamShopPlatform\logbook-service\target\classes started by kamin in D:\fullstack Java Labs\learning-microservices-with-spring-cloud-BennethKaminskiPXL\backend-java)
+2024-12-05T17:58:27.563+0100 DEBUG              [main]                         be.pxl.services.LogbookServiceApp - Running with Spring Boot v3.3.4, Spring v6.1.13
+2024-12-05T17:58:27.563+0100 INFO               [main]                         be.pxl.services.LogbookServiceApp - No active profile set, falling back to 1 default profile: "default"
+2024-12-05T17:58:30.893+0100 INFO               [main]                         be.pxl.services.LogbookServiceApp - Started LogbookServiceApp in 4.227 seconds (process running for 4.947)
