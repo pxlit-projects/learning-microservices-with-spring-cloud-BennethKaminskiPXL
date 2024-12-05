@@ -1,6 +1,5 @@
 package be.pxl.services.services;
 
-import be.pxl.services.client.ShoppingCartClient;
 import be.pxl.services.domain.Category;
 import be.pxl.services.domain.Product;
 import be.pxl.services.domain.dto.ShoppingCartRequest;
@@ -12,7 +11,6 @@ import lombok.RequiredArgsConstructor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
@@ -22,7 +20,6 @@ import java.util.List;
 @RequiredArgsConstructor
 public class CatalogService implements ICatalogService{
     private final CatalogRepository catalogRepository;
-    private final ShoppingCartClient shoppingCartClient;
     private static final Logger logger = LoggerFactory.getLogger(CatalogService.class);
     private final RabbitTemplate rabbitTemplate;
 
@@ -31,15 +28,11 @@ public class CatalogService implements ICatalogService{
         Product product = mapToProduct(productRequest);
         catalogRepository.save(product);
         logger.info("Product added to catalog: " + product.getName());
-
+        productRequest.setId(product.getId());
         productRequest.setAction("add");
         //send rabbittemplate message to logbookservice myqueue
         Log log = mapToLog(productRequest);
         rabbitTemplate.convertAndSend("AuditQueue", log);
-//
-       ShoppingCartRequest shoppingCartRequest = maptoShoppingCartRequest(product);
-        logger.info("Adding product to shoppingcart-service database");
-        shoppingCartClient.sendNotification(shoppingCartRequest);
     }
 
     public Log mapToLog(ProductRequest productRequest){
@@ -81,12 +74,6 @@ public class CatalogService implements ICatalogService{
     public ProductResponse updateProduct(Long id, ProductRequest productRequest) {
         Product product = catalogRepository.findById(id).orElseThrow();
 
-        //openfeign voor shoppingcart
-        if (!(product.getName().equals(productRequest.getName()) || product.getPrice().equals(productRequest.getPrice()))) {
-            logger.info("sending update message to shoppingcart service");
-            ShoppingCartRequest shoppingCartRequest = maptoShoppingCartRequest(product);
-            shoppingCartClient.patchNotification(shoppingCartRequest);
-        }
         product.setLabel(productRequest.getLabel());
         product.setPrice(productRequest.getPrice());
         product.setName(productRequest.getName());
@@ -118,14 +105,12 @@ public class CatalogService implements ICatalogService{
     public void deleteProduct(String userName, Long id) {
         logger.info("User " + userName + " is deleting product with id: " + id);
         var product = catalogRepository.findById(id).orElseThrow();
-        ShoppingCartRequest shoppingCartRequest = maptoShoppingCartRequest(product);
         ProductRequest productRequest = mapToProductRequest(product);
         productRequest.setAction("delete");
         logger.info("Sending delete message to logbook service");
         Log log = mapToLog(productRequest);
         rabbitTemplate.convertAndSend("AuditQueue",log);  ;
         catalogRepository.deleteById(id);
-   //    shoppingCartClient.deleteNotification(shoppingCartRequest);
 
 
 

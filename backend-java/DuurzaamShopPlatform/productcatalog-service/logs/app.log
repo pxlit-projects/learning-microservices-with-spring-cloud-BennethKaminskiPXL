@@ -1,0 +1,256 @@
+2024-12-04T08:37:44.318+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - Starting ProductCatalogTests using Java 21.0.2 with PID 23228 (started by kamin in D:\fullstack Java Labs\learning-microservices-with-spring-cloud-BennethKaminskiPXL\backend-java\DuurzaamShopPlatform\productcatalog-service)
+2024-12-04T08:37:44.318+0100 DEBUG              [main]                         be.pxl.services.ProductCatalogTests - Running with Spring Boot v3.3.4, Spring v6.1.13
+2024-12-04T08:37:44.319+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - No active profile set, falling back to 1 default profile: "default"
+2024-12-04T08:37:49.196+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - Started ProductCatalogTests in 5.727 seconds (process running for 99.146)
+2024-12-04T08:37:49.826+0100 INFO               [main]                         controller.be.pxl.services.ProductController - Adding product : productby user : null
+2024-12-04T08:39:41.261+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - Starting ProductCatalogTests using Java 21.0.2 with PID 13596 (started by kamin in D:\fullstack Java Labs\learning-microservices-with-spring-cloud-BennethKaminskiPXL\backend-java\DuurzaamShopPlatform\productcatalog-service)
+2024-12-04T08:39:41.262+0100 DEBUG              [main]                         be.pxl.services.ProductCatalogTests - Running with Spring Boot v3.3.4, Spring v6.1.13
+2024-12-04T08:39:41.262+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - No active profile set, falling back to 1 default profile: "default"
+2024-12-04T08:39:45.200+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - Started ProductCatalogTests in 4.684 seconds (process running for 17.102)
+2024-12-04T08:39:45.765+0100 INFO               [main]                         controller.be.pxl.services.ProductController - Adding product : productby user : null
+2024-12-04T08:47:17.195+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - Starting ProductCatalogTests using Java 21.0.2 with PID 24492 (started by kamin in D:\fullstack Java Labs\learning-microservices-with-spring-cloud-BennethKaminskiPXL\backend-java\DuurzaamShopPlatform\productcatalog-service)
+2024-12-04T08:47:17.196+0100 DEBUG              [main]                         be.pxl.services.ProductCatalogTests - Running with Spring Boot v3.3.4, Spring v6.1.13
+2024-12-04T08:47:17.197+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - No active profile set, falling back to 1 default profile: "default"
+2024-12-04T08:47:21.415+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - Started ProductCatalogTests in 4.977 seconds (process running for 17.133)
+2024-12-04T08:47:21.895+0100 INFO               [main]                         controller.be.pxl.services.ProductController - Adding product : productby user : null
+2024-12-04T08:47:21.966+0100 INFO               [main]                         services.be.pxl.services.CatalogService - Product added to catalog: product
+2024-12-04T08:47:21.966+0100 INFO               [main]                         services.be.pxl.services.CatalogService - Sending add message to logbook service
+2024-12-04T08:48:01.108+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - Starting ProductCatalogTests using Java 21.0.2 with PID 5216 (started by kamin in D:\fullstack Java Labs\learning-microservices-with-spring-cloud-BennethKaminskiPXL\backend-java\DuurzaamShopPlatform\productcatalog-service)
+2024-12-04T08:48:01.109+0100 DEBUG              [main]                         be.pxl.services.ProductCatalogTests - Running with Spring Boot v3.3.4, Spring v6.1.13
+2024-12-04T08:48:01.109+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - No active profile set, falling back to 1 default profile: "default"
+2024-12-04T08:48:05.055+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - Started ProductCatalogTests in 4.707 seconds (process running for 16.777)
+2024-12-04T08:48:05.598+0100 INFO               [main]                         controller.be.pxl.services.ProductController - Adding product : productby user : null
+2024-12-04T08:48:05.670+0100 INFO               [main]                         services.be.pxl.services.CatalogService - Product added to catalog: product
+2024-12-04T08:48:05.670+0100 INFO               [main]                         services.be.pxl.services.CatalogService - Sending add message to logbook service
+2024-12-04T08:49:30.526+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - Starting ProductCatalogTests using Java 21.0.2 with PID 24140 (started by kamin in D:\fullstack Java Labs\learning-microservices-with-spring-cloud-BennethKaminskiPXL\backend-java\DuurzaamShopPlatform\productcatalog-service)
+2024-12-04T08:49:30.527+0100 DEBUG              [main]                         be.pxl.services.ProductCatalogTests - Running with Spring Boot v3.3.4, Spring v6.1.13
+2024-12-04T08:49:30.528+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - No active profile set, falling back to 1 default profile: "default"
+2024-12-04T08:49:34.433+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - Started ProductCatalogTests in 4.645 seconds (process running for 17.187)
+2024-12-04T08:49:34.896+0100 INFO               [main]                         controller.be.pxl.services.ProductController - Adding product : productby user : null
+2024-12-04T08:49:34.966+0100 INFO               [main]                         services.be.pxl.services.CatalogService - Product added to catalog: product
+2024-12-04T08:49:34.967+0100 INFO               [main]                         services.be.pxl.services.CatalogService - Sending add message to logbook service
+2024-12-04T08:50:38.722+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - Starting ProductCatalogTests using Java 21.0.2 with PID 28680 (started by kamin in D:\fullstack Java Labs\learning-microservices-with-spring-cloud-BennethKaminskiPXL\backend-java\DuurzaamShopPlatform\productcatalog-service)
+2024-12-04T08:50:38.722+0100 DEBUG              [main]                         be.pxl.services.ProductCatalogTests - Running with Spring Boot v3.3.4, Spring v6.1.13
+2024-12-04T08:50:38.723+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - No active profile set, falling back to 1 default profile: "default"
+2024-12-04T08:50:42.548+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - Started ProductCatalogTests in 4.489 seconds (process running for 16.798)
+2024-12-04T08:50:43.091+0100 INFO               [main]                         controller.be.pxl.services.ProductController - Updating product with id : 1by user : null
+2024-12-04T08:50:43.149+0100 INFO               [main]                         services.be.pxl.services.CatalogService - Product updated: updated
+2024-12-04T08:50:43.149+0100 INFO               [main]                         services.be.pxl.services.CatalogService - Sending update message to logbook service
+2024-12-04T08:50:43.199+0100 INFO               [main]                         controller.be.pxl.services.ProductController - Getting products by category : jackets
+2024-12-04T08:50:43.385+0100 INFO               [main]                         controller.be.pxl.services.ProductController - Getting products by label : secondlabel
+2024-12-04T08:50:43.436+0100 INFO               [main]                         controller.be.pxl.services.ProductController - Getting all products
+2024-12-04T08:50:43.453+0100 INFO               [main]                         controller.be.pxl.services.ProductController - Adding product : productby user : null
+2024-12-04T08:50:43.461+0100 INFO               [main]                         services.be.pxl.services.CatalogService - Product added to catalog: product
+2024-12-04T08:50:43.461+0100 INFO               [main]                         services.be.pxl.services.CatalogService - Sending add message to logbook service
+2024-12-04T08:55:41.024+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - Starting ProductCatalogTests using Java 21.0.2 with PID 14156 (started by kamin in D:\fullstack Java Labs\learning-microservices-with-spring-cloud-BennethKaminskiPXL\backend-java\DuurzaamShopPlatform\productcatalog-service)
+2024-12-04T08:55:41.024+0100 DEBUG              [main]                         be.pxl.services.ProductCatalogTests - Running with Spring Boot v3.3.4, Spring v6.1.13
+2024-12-04T08:55:41.025+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - No active profile set, falling back to 1 default profile: "default"
+2024-12-04T08:55:45.023+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - Started ProductCatalogTests in 4.741 seconds (process running for 16.819)
+2024-12-04T08:55:45.535+0100 INFO               [main]                         controller.be.pxl.services.ProductController - Adding product : productby user : user
+2024-12-04T08:55:45.610+0100 INFO               [main]                         services.be.pxl.services.CatalogService - Product added to catalog: product
+2024-12-04T08:55:45.610+0100 INFO               [main]                         services.be.pxl.services.CatalogService - Sending add message to logbook service
+2024-12-04T09:06:01.020+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - Starting ProductCatalogTests using Java 21.0.2 with PID 2868 (started by kamin in D:\fullstack Java Labs\learning-microservices-with-spring-cloud-BennethKaminskiPXL\backend-java\DuurzaamShopPlatform\productcatalog-service)
+2024-12-04T09:06:01.020+0100 DEBUG              [main]                         be.pxl.services.ProductCatalogTests - Running with Spring Boot v3.3.4, Spring v6.1.13
+2024-12-04T09:06:01.020+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - No active profile set, falling back to 1 default profile: "default"
+2024-12-04T09:06:05.219+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - Started ProductCatalogTests in 4.977 seconds (process running for 17.667)
+2024-12-04T09:06:42.981+0100 INFO               [main]                         controller.be.pxl.services.ProductController - Adding product : productby user : user
+2024-12-04T09:06:43.349+0100 INFO               [main]                         services.be.pxl.services.CatalogService - Product added to catalog: product
+2024-12-04T09:06:43.349+0100 INFO               [main]                         services.be.pxl.services.CatalogService - Sending add message to logbook service
+2024-12-04T09:14:11.374+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - Starting ProductCatalogTests using Java 21.0.2 with PID 16848 (started by kamin in D:\fullstack Java Labs\learning-microservices-with-spring-cloud-BennethKaminskiPXL\backend-java\DuurzaamShopPlatform\productcatalog-service)
+2024-12-04T09:14:11.375+0100 DEBUG              [main]                         be.pxl.services.ProductCatalogTests - Running with Spring Boot v3.3.4, Spring v6.1.13
+2024-12-04T09:14:11.376+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - No active profile set, falling back to 1 default profile: "default"
+2024-12-04T09:14:15.309+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - Started ProductCatalogTests in 4.693 seconds (process running for 16.976)
+2024-12-04T09:14:15.838+0100 INFO               [main]                         controller.be.pxl.services.ProductController - Getting all products
+2024-12-04T09:14:30.648+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - Starting ProductCatalogTests using Java 21.0.2 with PID 13564 (started by kamin in D:\fullstack Java Labs\learning-microservices-with-spring-cloud-BennethKaminskiPXL\backend-java\DuurzaamShopPlatform\productcatalog-service)
+2024-12-04T09:14:30.649+0100 DEBUG              [main]                         be.pxl.services.ProductCatalogTests - Running with Spring Boot v3.3.4, Spring v6.1.13
+2024-12-04T09:14:30.650+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - No active profile set, falling back to 1 default profile: "default"
+2024-12-04T09:14:34.831+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - Started ProductCatalogTests in 4.943 seconds (process running for 17.257)
+2024-12-04T09:14:35.390+0100 INFO               [main]                         controller.be.pxl.services.ProductController - Adding product : productby user : user
+2024-12-04T09:14:35.464+0100 INFO               [main]                         services.be.pxl.services.CatalogService - Product added to catalog: product
+2024-12-04T09:14:35.464+0100 INFO               [main]                         services.be.pxl.services.CatalogService - Sending add message to logbook service
+2024-12-04T12:16:30.193+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - Starting ProductCatalogTests using Java 21.0.2 with PID 13500 (started by kamin in D:\fullstack Java Labs\learning-microservices-with-spring-cloud-BennethKaminskiPXL\backend-java\DuurzaamShopPlatform\productcatalog-service)
+2024-12-04T12:16:30.199+0100 DEBUG              [main]                         be.pxl.services.ProductCatalogTests - Running with Spring Boot v3.3.4, Spring v6.1.13
+2024-12-04T12:16:30.199+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - No active profile set, falling back to 1 default profile: "default"
+2024-12-04T12:16:34.157+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - Started ProductCatalogTests in 4.671 seconds (process running for 18.892)
+2024-12-04T12:16:34.628+0100 INFO               [main]                         be.pxl.services.controller.ProductController - Adding product : productby user : user
+2024-12-04T12:16:34.725+0100 INFO               [main]                         be.pxl.services.services.CatalogService - Product added to catalog: product
+2024-12-04T12:20:22.464+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - Starting ProductCatalogTests using Java 21.0.2 with PID 16688 (started by kamin in D:\fullstack Java Labs\learning-microservices-with-spring-cloud-BennethKaminskiPXL\backend-java\DuurzaamShopPlatform\productcatalog-service)
+2024-12-04T12:20:22.465+0100 DEBUG              [main]                         be.pxl.services.ProductCatalogTests - Running with Spring Boot v3.3.4, Spring v6.1.13
+2024-12-04T12:20:22.466+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - No active profile set, falling back to 1 default profile: "default"
+2024-12-04T12:20:26.253+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - Started ProductCatalogTests in 4.493 seconds (process running for 16.707)
+2024-12-04T12:20:26.806+0100 INFO               [main]                         be.pxl.services.controller.ProductController - Getting all products
+2024-12-04T12:20:46.654+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - Starting ProductCatalogTests using Java 21.0.2 with PID 24832 (started by kamin in D:\fullstack Java Labs\learning-microservices-with-spring-cloud-BennethKaminskiPXL\backend-java\DuurzaamShopPlatform\productcatalog-service)
+2024-12-04T12:20:46.655+0100 DEBUG              [main]                         be.pxl.services.ProductCatalogTests - Running with Spring Boot v3.3.4, Spring v6.1.13
+2024-12-04T12:20:46.656+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - No active profile set, falling back to 1 default profile: "default"
+2024-12-04T12:20:50.496+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - Started ProductCatalogTests in 4.536 seconds (process running for 16.74)
+2024-12-04T12:20:51.027+0100 INFO               [main]                         be.pxl.services.controller.ProductController - Updating product with id : 1by user : null
+2024-12-04T12:20:51.088+0100 INFO               [main]                         be.pxl.services.services.CatalogService - Product updated: updated
+2024-12-04T12:20:51.088+0100 INFO               [main]                         be.pxl.services.services.CatalogService - Sending update message to logbook service
+2024-12-04T12:20:51.327+0100 INFO               [main]                         be.pxl.services.controller.ProductController - Getting products by category : jackets
+2024-12-04T12:20:51.416+0100 INFO               [main]                         be.pxl.services.controller.ProductController - Getting products by label : secondlabel
+2024-12-04T12:20:51.449+0100 INFO               [main]                         be.pxl.services.controller.ProductController - Getting all products
+2024-12-04T12:20:51.467+0100 INFO               [main]                         be.pxl.services.controller.ProductController - Adding product : productby user : user
+2024-12-04T12:20:51.475+0100 INFO               [main]                         be.pxl.services.services.CatalogService - Product added to catalog: product
+2024-12-04T12:23:07.404+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - Starting ProductCatalogTests using Java 21.0.2 with PID 11116 (started by kamin in D:\fullstack Java Labs\learning-microservices-with-spring-cloud-BennethKaminskiPXL\backend-java\DuurzaamShopPlatform\productcatalog-service)
+2024-12-04T12:23:07.405+0100 DEBUG              [main]                         be.pxl.services.ProductCatalogTests - Running with Spring Boot v3.3.4, Spring v6.1.13
+2024-12-04T12:23:07.405+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - No active profile set, falling back to 1 default profile: "default"
+2024-12-04T12:23:11.259+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - Started ProductCatalogTests in 4.587 seconds (process running for 16.846)
+2024-12-04T12:23:11.761+0100 INFO               [main]                         be.pxl.services.controller.ProductController - Adding product : productby user : user
+2024-12-04T12:23:11.827+0100 INFO               [main]                         be.pxl.services.services.CatalogService - Product added to catalog: product
+2024-12-04T12:24:48.778+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - Starting ProductCatalogTests using Java 21.0.2 with PID 10728 (started by kamin in D:\fullstack Java Labs\learning-microservices-with-spring-cloud-BennethKaminskiPXL\backend-java\DuurzaamShopPlatform\productcatalog-service)
+2024-12-04T12:24:48.779+0100 DEBUG              [main]                         be.pxl.services.ProductCatalogTests - Running with Spring Boot v3.3.4, Spring v6.1.13
+2024-12-04T12:24:48.779+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - No active profile set, falling back to 1 default profile: "default"
+2024-12-04T12:24:52.664+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - Started ProductCatalogTests in 4.598 seconds (process running for 17.307)
+2024-12-04T12:24:53.309+0100 INFO               [main]                         be.pxl.services.controller.ProductController - Updating product with id : 1by user : null
+2024-12-04T12:24:53.340+0100 INFO               [main]                         be.pxl.services.services.CatalogService - Product updated: updated
+2024-12-04T12:24:53.340+0100 INFO               [main]                         be.pxl.services.services.CatalogService - Sending update message to logbook service
+2024-12-04T12:24:53.534+0100 INFO               [main]                         be.pxl.services.controller.ProductController - Getting products by category : jackets
+2024-12-04T12:24:53.631+0100 INFO               [main]                         be.pxl.services.controller.ProductController - Getting products by label : secondlabel
+2024-12-04T12:24:53.675+0100 INFO               [main]                         be.pxl.services.controller.ProductController - Getting all products
+2024-12-04T12:24:53.709+0100 INFO               [main]                         be.pxl.services.controller.ProductController - Adding product : productby user : user
+2024-12-04T12:24:53.715+0100 INFO               [main]                         be.pxl.services.services.CatalogService - Product added to catalog: product
+2024-12-04T12:25:16.178+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - Starting ProductCatalogTests using Java 21.0.2 with PID 25032 (started by kamin in D:\fullstack Java Labs\learning-microservices-with-spring-cloud-BennethKaminskiPXL\backend-java\DuurzaamShopPlatform\productcatalog-service)
+2024-12-04T12:25:16.179+0100 DEBUG              [main]                         be.pxl.services.ProductCatalogTests - Running with Spring Boot v3.3.4, Spring v6.1.13
+2024-12-04T12:25:16.180+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - No active profile set, falling back to 1 default profile: "default"
+2024-12-04T12:25:20.110+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - Started ProductCatalogTests in 4.637 seconds (process running for 16.742)
+2024-12-04T12:25:20.741+0100 INFO               [main]                         be.pxl.services.controller.ProductController - Updating product with id : 1by user : null
+2024-12-04T12:25:20.771+0100 INFO               [main]                         be.pxl.services.services.CatalogService - Product updated: updated
+2024-12-04T12:25:20.771+0100 INFO               [main]                         be.pxl.services.services.CatalogService - Sending update message to logbook service
+2024-12-04T12:25:20.941+0100 INFO               [main]                         be.pxl.services.controller.ProductController - Getting products by category : jackets
+2024-12-04T12:25:21.047+0100 INFO               [main]                         be.pxl.services.controller.ProductController - Getting products by label : secondlabel
+2024-12-04T12:25:21.093+0100 INFO               [main]                         be.pxl.services.controller.ProductController - Getting all products
+2024-12-04T12:25:21.128+0100 INFO               [main]                         be.pxl.services.controller.ProductController - Adding product : productby user : user
+2024-12-04T12:25:21.135+0100 INFO               [main]                         be.pxl.services.services.CatalogService - Product added to catalog: product
+2024-12-04T12:32:30.750+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - Starting ProductCatalogTests using Java 21.0.2 with PID 22644 (started by kamin in D:\fullstack Java Labs\learning-microservices-with-spring-cloud-BennethKaminskiPXL\backend-java\DuurzaamShopPlatform\productcatalog-service)
+2024-12-04T12:32:30.751+0100 DEBUG              [main]                         be.pxl.services.ProductCatalogTests - Running with Spring Boot v3.3.4, Spring v6.1.13
+2024-12-04T12:32:30.751+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - No active profile set, falling back to 1 default profile: "default"
+2024-12-04T12:32:34.633+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - Started ProductCatalogTests in 4.59 seconds (process running for 17.731)
+2024-12-04T12:35:16.154+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - Starting ProductCatalogTests using Java 21.0.2 with PID 11144 (started by kamin in D:\fullstack Java Labs\learning-microservices-with-spring-cloud-BennethKaminskiPXL\backend-java\DuurzaamShopPlatform\productcatalog-service)
+2024-12-04T12:35:16.155+0100 DEBUG              [main]                         be.pxl.services.ProductCatalogTests - Running with Spring Boot v3.3.4, Spring v6.1.13
+2024-12-04T12:35:16.156+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - No active profile set, falling back to 1 default profile: "default"
+2024-12-04T12:35:20.037+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - Started ProductCatalogTests in 4.569 seconds (process running for 16.952)
+2024-12-04T12:35:55.556+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - Starting ProductCatalogTests using Java 21.0.2 with PID 16552 (started by kamin in D:\fullstack Java Labs\learning-microservices-with-spring-cloud-BennethKaminskiPXL\backend-java\DuurzaamShopPlatform\productcatalog-service)
+2024-12-04T12:35:55.556+0100 DEBUG              [main]                         be.pxl.services.ProductCatalogTests - Running with Spring Boot v3.3.4, Spring v6.1.13
+2024-12-04T12:35:55.557+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - No active profile set, falling back to 1 default profile: "default"
+2024-12-04T12:35:59.413+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - Started ProductCatalogTests in 4.567 seconds (process running for 16.913)
+2024-12-04T12:37:37.058+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - Starting ProductCatalogTests using Java 21.0.2 with PID 24520 (started by kamin in D:\fullstack Java Labs\learning-microservices-with-spring-cloud-BennethKaminskiPXL\backend-java\DuurzaamShopPlatform\productcatalog-service)
+2024-12-04T12:37:37.059+0100 DEBUG              [main]                         be.pxl.services.ProductCatalogTests - Running with Spring Boot v3.3.4, Spring v6.1.13
+2024-12-04T12:37:37.060+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - No active profile set, falling back to 1 default profile: "default"
+2024-12-04T12:37:43.355+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - Started ProductCatalogTests in 7.092 seconds (process running for 19.742)
+2024-12-04T12:38:51.208+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - Starting ProductCatalogTests using Java 21.0.2 with PID 18424 (started by kamin in D:\fullstack Java Labs\learning-microservices-with-spring-cloud-BennethKaminskiPXL\backend-java\DuurzaamShopPlatform\productcatalog-service)
+2024-12-04T12:38:51.209+0100 DEBUG              [main]                         be.pxl.services.ProductCatalogTests - Running with Spring Boot v3.3.4, Spring v6.1.13
+2024-12-04T12:38:51.210+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - No active profile set, falling back to 1 default profile: "default"
+2024-12-04T12:38:57.022+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - Started ProductCatalogTests in 6.717 seconds (process running for 19.609)
+2024-12-04T12:39:29.329+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - Starting ProductCatalogTests using Java 21.0.2 with PID 11844 (started by kamin in D:\fullstack Java Labs\learning-microservices-with-spring-cloud-BennethKaminskiPXL\backend-java\DuurzaamShopPlatform\productcatalog-service)
+2024-12-04T12:39:29.329+0100 DEBUG              [main]                         be.pxl.services.ProductCatalogTests - Running with Spring Boot v3.3.4, Spring v6.1.13
+2024-12-04T12:39:29.330+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - No active profile set, falling back to 1 default profile: "default"
+2024-12-04T12:39:34.315+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - Started ProductCatalogTests in 5.728 seconds (process running for 17.871)
+2024-12-04T12:39:54.350+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - Starting ProductCatalogTests using Java 21.0.2 with PID 22284 (started by kamin in D:\fullstack Java Labs\learning-microservices-with-spring-cloud-BennethKaminskiPXL\backend-java\DuurzaamShopPlatform\productcatalog-service)
+2024-12-04T12:39:54.351+0100 DEBUG              [main]                         be.pxl.services.ProductCatalogTests - Running with Spring Boot v3.3.4, Spring v6.1.13
+2024-12-04T12:39:54.351+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - No active profile set, falling back to 1 default profile: "default"
+2024-12-04T12:39:58.171+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - Started ProductCatalogTests in 4.511 seconds (process running for 16.765)
+2024-12-04T12:40:27.661+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - Starting ProductCatalogTests using Java 21.0.2 with PID 15384 (started by kamin in D:\fullstack Java Labs\learning-microservices-with-spring-cloud-BennethKaminskiPXL\backend-java\DuurzaamShopPlatform\productcatalog-service)
+2024-12-04T12:40:27.661+0100 DEBUG              [main]                         be.pxl.services.ProductCatalogTests - Running with Spring Boot v3.3.4, Spring v6.1.13
+2024-12-04T12:40:27.661+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - No active profile set, falling back to 1 default profile: "default"
+2024-12-04T12:40:31.529+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - Started ProductCatalogTests in 4.547 seconds (process running for 16.705)
+2024-12-04T12:40:32.200+0100 INFO               [main]                         be.pxl.services.controller.ProductController - Updating product with id : 1by user : null
+2024-12-04T12:40:32.230+0100 INFO               [main]                         be.pxl.services.services.CatalogService - Product updated: updated
+2024-12-04T12:40:32.230+0100 INFO               [main]                         be.pxl.services.services.CatalogService - Sending update message to logbook service
+2024-12-04T12:40:32.412+0100 INFO               [main]                         be.pxl.services.controller.ProductController - Getting products by category : jackets
+2024-12-04T12:40:32.538+0100 INFO               [main]                         be.pxl.services.controller.ProductController - Getting products by label : secondlabel
+2024-12-04T12:40:32.620+0100 INFO               [main]                         be.pxl.services.controller.ProductController - Getting all products
+2024-12-04T12:40:32.659+0100 INFO               [main]                         be.pxl.services.controller.ProductController - Adding product : productby user : user
+2024-12-04T12:40:32.670+0100 INFO               [main]                         be.pxl.services.services.CatalogService - Product added to catalog: product
+2024-12-04T14:14:17.292+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - Starting ProductCatalogTests using Java 21.0.2 with PID 27784 (started by kamin in D:\fullstack Java Labs\learning-microservices-with-spring-cloud-BennethKaminskiPXL\backend-java\DuurzaamShopPlatform\productcatalog-service)
+2024-12-04T14:14:17.293+0100 DEBUG              [main]                         be.pxl.services.ProductCatalogTests - Running with Spring Boot v3.3.4, Spring v6.1.13
+2024-12-04T14:14:17.294+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - No active profile set, falling back to 1 default profile: "default"
+2024-12-04T14:14:21.343+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - Started ProductCatalogTests in 4.766 seconds (process running for 17.199)
+2024-12-04T14:14:21.968+0100 INFO               [main]                         be.pxl.services.services.CatalogService - Product updated: product
+2024-12-04T14:14:21.969+0100 INFO               [main]                         be.pxl.services.services.CatalogService - Sending update message to logbook service
+2024-12-04T14:16:15.075+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - Starting ProductCatalogTests using Java 21.0.2 with PID 30984 (started by kamin in D:\fullstack Java Labs\learning-microservices-with-spring-cloud-BennethKaminskiPXL\backend-java\DuurzaamShopPlatform\productcatalog-service)
+2024-12-04T14:16:15.076+0100 DEBUG              [main]                         be.pxl.services.ProductCatalogTests - Running with Spring Boot v3.3.4, Spring v6.1.13
+2024-12-04T14:16:15.077+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - No active profile set, falling back to 1 default profile: "default"
+2024-12-04T14:16:19.001+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - Started ProductCatalogTests in 4.631 seconds (process running for 16.794)
+2024-12-04T14:16:19.721+0100 INFO               [main]                         be.pxl.services.services.CatalogService - Product updated: product
+2024-12-04T14:16:19.721+0100 INFO               [main]                         be.pxl.services.services.CatalogService - Sending update message to logbook service
+2024-12-04T14:20:45.716+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - Starting ProductCatalogTests using Java 21.0.2 with PID 16052 (started by kamin in D:\fullstack Java Labs\learning-microservices-with-spring-cloud-BennethKaminskiPXL\backend-java\DuurzaamShopPlatform\productcatalog-service)
+2024-12-04T14:20:45.717+0100 DEBUG              [main]                         be.pxl.services.ProductCatalogTests - Running with Spring Boot v3.3.4, Spring v6.1.13
+2024-12-04T14:20:45.718+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - No active profile set, falling back to 1 default profile: "default"
+2024-12-04T14:20:49.687+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - Started ProductCatalogTests in 4.695 seconds (process running for 16.989)
+2024-12-04T14:20:50.414+0100 INFO               [main]                         be.pxl.services.controller.ProductController - Deleting product with id : 1
+2024-12-04T14:20:50.414+0100 INFO               [main]                         be.pxl.services.services.CatalogService - User user is deleting product with id: 1
+2024-12-04T14:20:50.429+0100 INFO               [main]                         be.pxl.services.services.CatalogService - Sending delete message to logbook service
+2024-12-04T14:22:50.978+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - Starting ProductCatalogTests using Java 21.0.2 with PID 4448 (started by kamin in D:\fullstack Java Labs\learning-microservices-with-spring-cloud-BennethKaminskiPXL\backend-java\DuurzaamShopPlatform\productcatalog-service)
+2024-12-04T14:22:50.978+0100 DEBUG              [main]                         be.pxl.services.ProductCatalogTests - Running with Spring Boot v3.3.4, Spring v6.1.13
+2024-12-04T14:22:50.979+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - No active profile set, falling back to 1 default profile: "default"
+2024-12-04T14:22:54.933+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - Started ProductCatalogTests in 4.664 seconds (process running for 16.931)
+2024-12-04T14:22:55.662+0100 INFO               [main]                         be.pxl.services.controller.ProductController - Deleting product with id : 1
+2024-12-04T14:22:55.662+0100 INFO               [main]                         be.pxl.services.services.CatalogService - User user is deleting product with id: 1
+2024-12-04T14:22:55.676+0100 INFO               [main]                         be.pxl.services.services.CatalogService - Sending delete message to logbook service
+2024-12-04T14:23:22.885+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - Starting ProductCatalogTests using Java 21.0.2 with PID 30384 (started by kamin in D:\fullstack Java Labs\learning-microservices-with-spring-cloud-BennethKaminskiPXL\backend-java\DuurzaamShopPlatform\productcatalog-service)
+2024-12-04T14:23:22.886+0100 DEBUG              [main]                         be.pxl.services.ProductCatalogTests - Running with Spring Boot v3.3.4, Spring v6.1.13
+2024-12-04T14:23:22.886+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - No active profile set, falling back to 1 default profile: "default"
+2024-12-04T14:23:26.723+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - Started ProductCatalogTests in 4.561 seconds (process running for 16.656)
+2024-12-04T14:23:27.434+0100 INFO               [main]                         be.pxl.services.controller.ProductController - Deleting product with id : 1
+2024-12-04T14:23:27.435+0100 INFO               [main]                         be.pxl.services.services.CatalogService - User user is deleting product with id: 1
+2024-12-04T14:23:27.449+0100 INFO               [main]                         be.pxl.services.services.CatalogService - Sending delete message to logbook service
+2024-12-04T14:23:56.216+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - Starting ProductCatalogTests using Java 21.0.2 with PID 19480 (started by kamin in D:\fullstack Java Labs\learning-microservices-with-spring-cloud-BennethKaminskiPXL\backend-java\DuurzaamShopPlatform\productcatalog-service)
+2024-12-04T14:23:56.216+0100 DEBUG              [main]                         be.pxl.services.ProductCatalogTests - Running with Spring Boot v3.3.4, Spring v6.1.13
+2024-12-04T14:23:56.216+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - No active profile set, falling back to 1 default profile: "default"
+2024-12-04T14:24:00.150+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - Started ProductCatalogTests in 4.633 seconds (process running for 15.883)
+2024-12-04T14:24:00.872+0100 INFO               [main]                         be.pxl.services.controller.ProductController - Deleting product with id : 1
+2024-12-04T14:24:00.872+0100 INFO               [main]                         be.pxl.services.services.CatalogService - User user is deleting product with id: 1
+2024-12-04T14:24:00.891+0100 INFO               [main]                         be.pxl.services.services.CatalogService - Sending delete message to logbook service
+2024-12-04T14:24:01.081+0100 INFO               [main]                         be.pxl.services.controller.ProductController - Updating product with id : 1by user : null
+2024-12-04T14:24:01.150+0100 INFO               [main]                         be.pxl.services.controller.ProductController - Getting products by category : jackets
+2024-12-04T14:24:01.289+0100 INFO               [main]                         be.pxl.services.controller.ProductController - Getting products by label : secondlabel
+2024-12-04T14:24:01.361+0100 INFO               [main]                         be.pxl.services.controller.ProductController - Getting all products
+2024-12-04T14:24:01.396+0100 INFO               [main]                         be.pxl.services.controller.ProductController - Adding product : productby user : user
+2024-12-04T14:24:01.403+0100 INFO               [main]                         be.pxl.services.services.CatalogService - Product added to catalog: product
+2024-12-04T14:25:17.440+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - Starting ProductCatalogTests using Java 21.0.2 with PID 12888 (started by kamin in D:\fullstack Java Labs\learning-microservices-with-spring-cloud-BennethKaminskiPXL\backend-java\DuurzaamShopPlatform\productcatalog-service)
+2024-12-04T14:25:17.440+0100 DEBUG              [main]                         be.pxl.services.ProductCatalogTests - Running with Spring Boot v3.3.4, Spring v6.1.13
+2024-12-04T14:25:17.440+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - No active profile set, falling back to 1 default profile: "default"
+2024-12-04T14:25:21.405+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - Started ProductCatalogTests in 4.677 seconds (process running for 16.995)
+2024-12-04T14:25:22.149+0100 INFO               [main]                         be.pxl.services.controller.ProductController - Updating product with id : 1by user : null
+2024-12-04T14:25:22.197+0100 INFO               [main]                         be.pxl.services.services.CatalogService - Product updated: updated
+2024-12-04T14:25:22.197+0100 INFO               [main]                         be.pxl.services.services.CatalogService - Sending update message to logbook service
+2024-12-04T14:26:58.489+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - Starting ProductCatalogTests using Java 21.0.2 with PID 6424 (started by kamin in D:\fullstack Java Labs\learning-microservices-with-spring-cloud-BennethKaminskiPXL\backend-java\DuurzaamShopPlatform\productcatalog-service)
+2024-12-04T14:26:58.505+0100 DEBUG              [main]                         be.pxl.services.ProductCatalogTests - Running with Spring Boot v3.3.4, Spring v6.1.13
+2024-12-04T14:26:58.505+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - No active profile set, falling back to 1 default profile: "default"
+2024-12-04T14:27:02.440+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - Started ProductCatalogTests in 4.633 seconds (process running for 16.803)
+2024-12-04T14:27:03.160+0100 INFO               [main]                         be.pxl.services.controller.ProductController - Deleting product with id : 1
+2024-12-04T14:27:03.160+0100 INFO               [main]                         be.pxl.services.services.CatalogService - User user is deleting product with id: 1
+2024-12-04T14:27:03.190+0100 INFO               [main]                         be.pxl.services.services.CatalogService - Sending delete message to logbook service
+2024-12-04T14:27:03.384+0100 INFO               [main]                         be.pxl.services.controller.ProductController - Updating product with id : 1by user : null
+2024-12-04T14:27:03.466+0100 INFO               [main]                         be.pxl.services.controller.ProductController - Getting products by category : jackets
+2024-12-04T14:27:03.611+0100 INFO               [main]                         be.pxl.services.controller.ProductController - Getting products by label : secondlabel
+2024-12-04T14:27:03.691+0100 INFO               [main]                         be.pxl.services.controller.ProductController - Getting all products
+2024-12-04T14:27:03.726+0100 INFO               [main]                         be.pxl.services.controller.ProductController - Adding product : productby user : user
+2024-12-04T14:27:03.734+0100 INFO               [main]                         be.pxl.services.services.CatalogService - Product added to catalog: product
+2024-12-04T14:28:12.987+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - Starting ProductCatalogTests using Java 21.0.2 with PID 29648 (started by kamin in D:\fullstack Java Labs\learning-microservices-with-spring-cloud-BennethKaminskiPXL\backend-java\DuurzaamShopPlatform\productcatalog-service)
+2024-12-04T14:28:12.988+0100 DEBUG              [main]                         be.pxl.services.ProductCatalogTests - Running with Spring Boot v3.3.4, Spring v6.1.13
+2024-12-04T14:28:12.988+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - No active profile set, falling back to 1 default profile: "default"
+2024-12-04T14:28:16.819+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - Started ProductCatalogTests in 4.554 seconds (process running for 16.578)
+2024-12-04T14:28:17.586+0100 INFO               [main]                         be.pxl.services.controller.ProductController - Updating product with id : 1by user : bob
+2024-12-04T14:28:17.608+0100 INFO               [main]                         be.pxl.services.services.CatalogService - Product updated: updated
+2024-12-04T14:28:17.609+0100 INFO               [main]                         be.pxl.services.services.CatalogService - Sending update message to logbook service
+2024-12-04T14:28:38.195+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - Starting ProductCatalogTests using Java 21.0.2 with PID 1732 (started by kamin in D:\fullstack Java Labs\learning-microservices-with-spring-cloud-BennethKaminskiPXL\backend-java\DuurzaamShopPlatform\productcatalog-service)
+2024-12-04T14:28:38.196+0100 DEBUG              [main]                         be.pxl.services.ProductCatalogTests - Running with Spring Boot v3.3.4, Spring v6.1.13
+2024-12-04T14:28:38.197+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - No active profile set, falling back to 1 default profile: "default"
+2024-12-04T14:28:42.133+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - Started ProductCatalogTests in 4.624 seconds (process running for 16.101)
+2024-12-04T14:28:42.865+0100 INFO               [main]                         be.pxl.services.controller.ProductController - Deleting product with id : 1
+2024-12-04T14:28:42.866+0100 INFO               [main]                         be.pxl.services.services.CatalogService - User user is deleting product with id: 1
+2024-12-04T14:28:42.881+0100 INFO               [main]                         be.pxl.services.services.CatalogService - Sending delete message to logbook service
+2024-12-04T14:28:43.071+0100 INFO               [main]                         be.pxl.services.controller.ProductController - Updating product with id : 1by user : bob
+2024-12-04T14:28:43.147+0100 INFO               [main]                         be.pxl.services.controller.ProductController - Getting products by category : jackets
+2024-12-04T14:28:43.288+0100 INFO               [main]                         be.pxl.services.controller.ProductController - Getting products by label : secondlabel
+2024-12-04T14:28:43.364+0100 INFO               [main]                         be.pxl.services.controller.ProductController - Getting all products
+2024-12-04T14:28:43.405+0100 INFO               [main]                         be.pxl.services.controller.ProductController - Adding product : productby user : user
+2024-12-04T14:28:43.413+0100 INFO               [main]                         be.pxl.services.services.CatalogService - Product added to catalog: product
+2024-12-04T14:29:44.238+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - Starting ProductCatalogTests using Java 21.0.2 with PID 9256 (started by kamin in D:\fullstack Java Labs\learning-microservices-with-spring-cloud-BennethKaminskiPXL\backend-java\DuurzaamShopPlatform\productcatalog-service)
+2024-12-04T14:29:44.238+0100 DEBUG              [main]                         be.pxl.services.ProductCatalogTests - Running with Spring Boot v3.3.4, Spring v6.1.13
+2024-12-04T14:29:44.238+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - No active profile set, falling back to 1 default profile: "default"
+2024-12-04T14:29:48.400+0100 INFO               [main]                         be.pxl.services.ProductCatalogTests - Started ProductCatalogTests in 4.886 seconds (process running for 17.942)
+2024-12-04T14:30:41.240+0100 INFO               [main]                         be.pxl.services.controller.ProductController - Updating product with id : 1by user : bob
+2024-12-04T14:30:41.345+0100 INFO               [main]                         be.pxl.services.services.CatalogService - Product updated: updated
+2024-12-04T14:30:41.345+0100 INFO               [main]                         be.pxl.services.services.CatalogService - Sending update message to logbook service

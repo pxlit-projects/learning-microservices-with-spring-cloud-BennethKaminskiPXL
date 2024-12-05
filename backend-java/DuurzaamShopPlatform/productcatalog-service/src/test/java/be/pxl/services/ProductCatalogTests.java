@@ -1,6 +1,5 @@
 package be.pxl.services;
 
-import be.pxl.services.client.ShoppingCartClient;
 import be.pxl.services.domain.Category;
 import be.pxl.services.domain.Product;
 import be.pxl.services.domain.dto.ProductRequest;
@@ -26,10 +25,7 @@ import org.testcontainers.containers.MySQLContainer;
 import org.testcontainers.junit.jupiter.Container;
 import org.testcontainers.junit.jupiter.Testcontainers;
 
-import java.util.Optional;
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.mockito.Mockito.*;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
