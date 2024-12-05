@@ -1,12 +1,13 @@
 import { defineStore } from "pinia";
 import axios from 'axios';
+import { ref } from "vue";
 
 
 
 
 export const useCatalogStore = defineStore('catalog',{
     state: () => ({
-        userName : "",
+        userName : ref(localStorage.getItem('userName') || ''),
         categories: ["JACKETS",
             "SHIRTS",
             "SHOES",
@@ -18,12 +19,16 @@ export const useCatalogStore = defineStore('catalog',{
             category: '',
             price: 0,
             userName: ""
-          }
+          },
+          products : [],
+          id: ref(localStorage.getItem('id') || '')
     }),
     actions:{
         async handleLogin(givenUserName){
             console.log("handleLogin called with: ", givenUserName);
             this.userName = givenUserName;
+            localStorage.setItem('userName', givenUserName);
+
         },
         async addProduct(newProduct){
             newProduct.category = newProduct.category.toUpperCase();
@@ -54,8 +59,35 @@ export const useCatalogStore = defineStore('catalog',{
                 console.error("Error editing product: ", error);
                 return null;
             }
-        }
-
+        },
+        //nog nakijken
+        async removeProduct(productId) {
+            if (!this.userName) {
+                console.error("User name is not set");
+                return null;
+              }
+            try {
+                const response = await axios.delete(`http://localhost:8089/catalog/api/catalog/${this.userName}/${productId}`);
+                console.log("Product deleted: ", response.data);
+                return response.data;
+            } catch (error) {
+                console.error("Error deleting product: ", error);
+                return null;
+            }
+        },
+        //loadProducts
+        async loadProducts() {
+            try {
+                const response = await axios.get('http://localhost:8089/catalog/api/catalog');
+                console.log("Products fetched: ", response.data);
+                this.products = response.data;
+                console.log("Products in store: ", this.products);
+                return this.products;
+            } catch (error) {
+                console.error("Error fetching products: ", error);
+                return null;
+            }
+        },
        
     }
 

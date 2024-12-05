@@ -50,7 +50,8 @@
       },
     setup() {
       const catalogStore = useCatalogStore();
-      const id = ref(0);
+      //const id = ref(0);
+      const id = computed(() => catalogStore.id);
       const {product} = storeToRefs(catalogStore); 
   
       const categories = computed(() => catalogStore.categories);
