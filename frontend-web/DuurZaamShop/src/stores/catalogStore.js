@@ -1,19 +1,16 @@
 import { defineStore } from "pinia";
 import axios from 'axios';
 
-const JACKETS = "Jackets";
-const SHIRTS = "Shirts";
-const SHOES = "Shoes";
-const UNDERWEAR = "Underwear";
+
 
 
 export const useCatalogStore = defineStore('catalog',{
     state: () => ({
         userName : "",
-        categories: [JACKETS,
-            SHIRTS,
-            SHOES,
-            UNDERWEAR],
+        categories: ["JACKETS",
+            "SHIRTS",
+            "SHOES",
+            "UNDERWEAR"],
         product :  {
             name: '',
             label: '',
@@ -37,8 +34,29 @@ export const useCatalogStore = defineStore('catalog',{
             console.log("Product added: ", this.product);
             const response = await axios.post('http://localhost:8089/catalog/api/catalog', this.product);
             console.log("Response: ", response);
+        },
+        async getProduct(productId) {
+            try {
+                const response = await axios.get(`http://localhost:8089/catalog/api/catalog/${productId}`);
+                console.log("Product fetched: ", response.data);
+                return response.data;
+            } catch (error) {
+                console.error("Error fetching product: ", error);
+                return null;
+            }
+        },
+        async editProduct(product) {
+            try {
+                const response = await axios.put(`http://localhost:8089/catalog/api/catalog/${product.id}`, product);
+                console.log("Product edited: ", response.data);
+                return response.data;
+            } catch (error) {
+                console.error("Error editing product: ", error);
+                return null;
+            }
         }
+
        
     }
 
-})
+});

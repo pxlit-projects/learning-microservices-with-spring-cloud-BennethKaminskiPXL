@@ -1,5 +1,6 @@
 <template>
   <div>
+    <ProductNavBar />
     <h1>Create Product</h1>
     <form @submit.prevent="submitForm">
       <div>
@@ -32,7 +33,12 @@
 <script>
 import { useCatalogStore } from '@/stores/catalogStore';
 import { computed, ref } from 'vue';
+import ProductNavBar from '@/components/ProductNavBar.vue';
+
 export default {
+    components: {
+        ProductNavBar
+    },
   setup() {
     const catalogStore = useCatalogStore();
     const product = ref({
