@@ -23,21 +23,13 @@ import SupportIcon from './icons/IconSupport.vue'
     <template #icon>
       <ToolingIcon />
     </template>
-    <template #heading>Tooling</template>
+    <template #heading>Shop till you drop!</template>
 
-    This project is served and bundled with
-    <a href="https://vite.dev/guide/features.html" target="_blank" rel="noopener">Vite</a>. The
-    recommended IDE setup is
-    <a href="https://code.visualstudio.com/" target="_blank" rel="noopener">VSCode</a>
-    +
-    <a href="https://github.com/johnsoncodehk/volar" target="_blank" rel="noopener">Volar</a>. If
-    you need to test your components and web pages, check out
-    <a href="https://www.cypress.io/" target="_blank" rel="noopener">Cypress</a>
-    and
-    <a href="https://on.cypress.io/component" target="_blank" rel="noopener"
-      >Cypress Component Testing</a
-    >.
-
+    Winkel tot je er bij neervalt! Klik hier : 
+    <router-link to="/shop">Shop. En laad je winkelwagen vol!</router-link>
+    alles is toch gratis...
+    <router-link to="/shop">
+    <img src="@/assets/smiley.png" height="175" width="175" alt="shop till you drop" /></router-link>
     <br />
 
     More instructions are available in <code>README.md</code>.

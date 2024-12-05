@@ -67,7 +67,7 @@ public class CartService implements ICartService {
         }
 
         //productlist mappen op product in de cart
-        var productInCart = productlist.stream().filter(p -> p.getId() == productId).findFirst().orElseThrow();
+        var productInCart = productlist.stream().filter(p -> p.getProdId() == productId).findFirst().orElseThrow();
         if (productInCart.getQuantity() > 1) {
             productInCart.setQuantity(productInCart.getQuantity() - 1);
             log.info("1 Product with id" + productId +"  removed from cart with id" + cartId);
@@ -113,6 +113,7 @@ public class CartService implements ICartService {
 
     private CartProductResponse mapToCartProductResponse(ShoppingCartItem product) {
         return CartProductResponse.builder()
+                .id(product.getProdId())
                 .price(product.getPrice())
                 .name(product.getName())
                 .quantity(product.getQuantity())
