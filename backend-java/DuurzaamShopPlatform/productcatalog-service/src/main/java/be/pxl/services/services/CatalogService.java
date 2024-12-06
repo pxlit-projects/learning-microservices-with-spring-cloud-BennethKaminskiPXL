@@ -107,6 +107,7 @@ public class CatalogService implements ICatalogService{
         var product = catalogRepository.findById(id).orElseThrow();
         ProductRequest productRequest = mapToProductRequest(product);
         productRequest.setAction("delete");
+        productRequest.setAction(userName);
         logger.info("Sending delete message to logbook service");
         Log log = mapToLog(productRequest);
         rabbitTemplate.convertAndSend("AuditQueue",log);  ;

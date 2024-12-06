@@ -52,6 +52,7 @@ export const useCatalogStore = defineStore('catalog',{
         },
         async editProduct(product) {
             try {
+                product.userName = this.userName;
                 const response = await axios.put(`http://localhost:8089/catalog/api/catalog/${product.id}`, product);
                 console.log("Product edited: ", response.data);
                 return response.data;

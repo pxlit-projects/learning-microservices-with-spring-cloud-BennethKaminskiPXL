@@ -1,0 +1,633 @@
+2024-12-05T10:17:04.087+0100 INFO               [main]                         be.pxl.services.ProductCatalogApp - Starting ProductCatalogApp using Java 21.0.2 with PID 24084 (D:\fullstack Java Labs\learning-microservices-with-spring-cloud-BennethKaminskiPXL\backend-java\DuurzaamShopPlatform\productcatalog-service\target\classes started by kamin in D:\fullstack Java Labs\learning-microservices-with-spring-cloud-BennethKaminskiPXL\backend-java)
+2024-12-05T10:17:04.093+0100 DEBUG              [main]                         be.pxl.services.ProductCatalogApp - Running with Spring Boot v3.3.4, Spring v6.1.13
+2024-12-05T10:17:04.094+0100 INFO               [main]                         be.pxl.services.ProductCatalogApp - No active profile set, falling back to 1 default profile: "default"
+2024-12-05T10:17:08.585+0100 INFO               [main]                         be.pxl.services.ProductCatalogApp - Started ProductCatalogApp in 5.395 seconds (process running for 6.019)
+2024-12-05T10:17:13.509+0100 INFO               [main]                         be.pxl.services.LogbookServiceApp - Starting LogbookServiceApp using Java 21 with PID 23808 (D:\fullstack Java Labs\learning-microservices-with-spring-cloud-BennethKaminskiPXL\backend-java\DuurzaamShopPlatform\logbook-service\target\classes started by kamin in D:\fullstack Java Labs\learning-microservices-with-spring-cloud-BennethKaminskiPXL\backend-java)
+2024-12-05T10:17:13.511+0100 DEBUG              [main]                         be.pxl.services.LogbookServiceApp - Running with Spring Boot v3.3.4, Spring v6.1.13
+2024-12-05T10:17:13.511+0100 INFO               [main]                         be.pxl.services.LogbookServiceApp - No active profile set, falling back to 1 default profile: "default"
+2024-12-05T10:17:17.131+0100 INFO               [main]                         be.pxl.services.LogbookServiceApp - Started LogbookServiceApp in 4.621 seconds (process running for 5.339)
+2024-12-05T10:17:23.847+0100 INFO               [main]                         be.pxl.services.ShoppingCartServiceApp - Starting ShoppingCartServiceApp using Java 21.0.2 with PID 4424 (D:\fullstack Java Labs\learning-microservices-with-spring-cloud-BennethKaminskiPXL\backend-java\DuurzaamShopPlatform\shoppingcart-service\target\classes started by kamin in D:\fullstack Java Labs\learning-microservices-with-spring-cloud-BennethKaminskiPXL\backend-java)
+2024-12-05T10:17:23.848+0100 DEBUG              [main]                         be.pxl.services.ShoppingCartServiceApp - Running with Spring Boot v3.3.4, Spring v6.1.13
+2024-12-05T10:17:23.848+0100 INFO               [main]                         be.pxl.services.ShoppingCartServiceApp - No active profile set, falling back to 1 default profile: "default"
+2024-12-05T10:17:27.813+0100 INFO               [main]                         be.pxl.services.ShoppingCartServiceApp - Started ShoppingCartServiceApp in 4.845 seconds (process running for 5.599)
+2024-12-05T10:29:16.906+0100 INFO               [http-nio-8081-exec-2]         be.pxl.services.controller.ProductController - Adding product : frontendTestby user : 
+2024-12-05T10:29:16.993+0100 INFO               [http-nio-8081-exec-2]         be.pxl.services.services.CatalogService - Product added to catalog: frontendTest
+2024-12-05T10:29:17.068+0100 INFO               [http-nio-8081-exec-2]         be.pxl.services.services.CatalogService - product id = 552
+2024-12-05T10:29:17.069+0100 INFO               [http-nio-8081-exec-2]         be.pxl.services.services.CatalogService - Adding product to shoppingcart-service database
+2024-12-05T10:35:59.118+0100 INFO               [http-nio-8081-exec-3]         be.pxl.services.controller.ProductController - Adding product : frontendTestby user : 
+2024-12-05T10:35:59.138+0100 INFO               [http-nio-8081-exec-3]         be.pxl.services.services.CatalogService - Product added to catalog: frontendTest
+2024-12-05T10:35:59.139+0100 INFO               [http-nio-8081-exec-3]         be.pxl.services.services.CatalogService - product id = 553
+2024-12-05T10:35:59.139+0100 INFO               [http-nio-8081-exec-3]         be.pxl.services.services.CatalogService - Adding product to shoppingcart-service database
+2024-12-05T10:36:56.313+0100 INFO               [main]                         be.pxl.services.ProductCatalogApp - Starting ProductCatalogApp using Java 21.0.2 with PID 25096 (D:\fullstack Java Labs\learning-microservices-with-spring-cloud-BennethKaminskiPXL\backend-java\DuurzaamShopPlatform\productcatalog-service\target\classes started by kamin in D:\fullstack Java Labs\learning-microservices-with-spring-cloud-BennethKaminskiPXL\backend-java)
+2024-12-05T10:36:56.313+0100 DEBUG              [main]                         be.pxl.services.ProductCatalogApp - Running with Spring Boot v3.3.4, Spring v6.1.13
+2024-12-05T10:36:56.314+0100 INFO               [main]                         be.pxl.services.ProductCatalogApp - No active profile set, falling back to 1 default profile: "default"
+2024-12-05T10:37:00.412+0100 INFO               [main]                         be.pxl.services.ProductCatalogApp - Started ProductCatalogApp in 4.981 seconds (process running for 5.635)
+2024-12-05T10:37:04.168+0100 INFO               [main]                         be.pxl.services.LogbookServiceApp - Starting LogbookServiceApp using Java 21 with PID 9252 (D:\fullstack Java Labs\learning-microservices-with-spring-cloud-BennethKaminskiPXL\backend-java\DuurzaamShopPlatform\logbook-service\target\classes started by kamin in D:\fullstack Java Labs\learning-microservices-with-spring-cloud-BennethKaminskiPXL\backend-java)
+2024-12-05T10:37:04.169+0100 DEBUG              [main]                         be.pxl.services.LogbookServiceApp - Running with Spring Boot v3.3.4, Spring v6.1.13
+2024-12-05T10:37:04.170+0100 INFO               [main]                         be.pxl.services.LogbookServiceApp - No active profile set, falling back to 1 default profile: "default"
+2024-12-05T10:37:07.236+0100 INFO               [main]                         be.pxl.services.LogbookServiceApp - Started LogbookServiceApp in 3.969 seconds (process running for 4.715)
+2024-12-05T10:37:42.230+0100 INFO               [http-nio-8081-exec-1]         be.pxl.services.controller.ProductController - Adding product : test2by user : benneth
+2024-12-05T10:37:42.299+0100 INFO               [http-nio-8081-exec-1]         be.pxl.services.services.CatalogService - Product added to catalog: test2
+2024-12-05T10:52:46.074+0100 INFO               [http-nio-8081-exec-3]         be.pxl.services.controller.ProductController - Getting product with id : 502
+2024-12-05T10:55:55.758+0100 INFO               [http-nio-8081-exec-5]         be.pxl.services.controller.ProductController - Getting product with id : 502
+2024-12-05T10:56:08.551+0100 INFO               [http-nio-8081-exec-7]         be.pxl.services.controller.ProductController - Getting product with id : 502
+2024-12-05T10:56:09.139+0100 INFO               [http-nio-8081-exec-8]         be.pxl.services.controller.ProductController - Getting product with id : 502
+2024-12-05T10:58:12.997+0100 INFO               [http-nio-8081-exec-10]        be.pxl.services.controller.ProductController - Getting product with id : 502
+2024-12-05T10:58:13.620+0100 INFO               [http-nio-8081-exec-9]         be.pxl.services.controller.ProductController - Getting product with id : 502
+2024-12-05T10:58:15.506+0100 INFO               [http-nio-8081-exec-1]         be.pxl.services.controller.ProductController - Getting product with id : 502
+2024-12-05T10:58:15.701+0100 INFO               [http-nio-8081-exec-2]         be.pxl.services.controller.ProductController - Getting product with id : 502
+2024-12-05T10:58:22.128+0100 INFO               [http-nio-8081-exec-3]         be.pxl.services.controller.ProductController - Getting product with id : 502
+2024-12-05T10:58:23.793+0100 INFO               [http-nio-8081-exec-4]         be.pxl.services.controller.ProductController - Getting product with id : 502
+2024-12-05T10:58:31.418+0100 INFO               [http-nio-8081-exec-5]         be.pxl.services.controller.ProductController - Getting product with id : 502
+2024-12-05T10:58:54.079+0100 INFO               [http-nio-8081-exec-7]         be.pxl.services.controller.ProductController - Getting product with id : 502
+2024-12-05T11:01:46.743+0100 INFO               [http-nio-8081-exec-6]         be.pxl.services.controller.ProductController - Getting product with id : 502
+2024-12-05T11:01:55.997+0100 INFO               [http-nio-8081-exec-10]        be.pxl.services.controller.ProductController - Getting product with id : 502
+2024-12-05T11:02:02.936+0100 INFO               [http-nio-8081-exec-9]         be.pxl.services.controller.ProductController - Getting product with id : 502
+2024-12-05T11:03:24.934+0100 INFO               [http-nio-8081-exec-2]         be.pxl.services.controller.ProductController - Getting product with id : 502
+2024-12-05T11:03:28.790+0100 INFO               [http-nio-8081-exec-3]         be.pxl.services.controller.ProductController - Getting product with id : 502
+2024-12-05T11:05:09.718+0100 INFO               [http-nio-8081-exec-5]         be.pxl.services.controller.ProductController - Getting product with id : 502
+2024-12-05T11:05:13.874+0100 INFO               [http-nio-8081-exec-7]         be.pxl.services.controller.ProductController - Getting product with id : 502
+2024-12-05T11:06:00.815+0100 INFO               [http-nio-8081-exec-8]         be.pxl.services.controller.ProductController - Getting product with id : 502
+2024-12-05T11:14:08.300+0100 INFO               [http-nio-8081-exec-10]        be.pxl.services.controller.ProductController - Getting product with id : 502
+2024-12-05T11:16:07.340+0100 INFO               [http-nio-8081-exec-1]         be.pxl.services.controller.ProductController - Getting product with id : 502
+2024-12-05T11:17:41.286+0100 INFO               [http-nio-8081-exec-3]         be.pxl.services.controller.ProductController - Getting product with id : 502
+2024-12-05T11:24:58.249+0100 INFO               [http-nio-8081-exec-5]         be.pxl.services.controller.ProductController - Getting product with id : 502
+2024-12-05T11:24:59.006+0100 INFO               [http-nio-8081-exec-7]         be.pxl.services.controller.ProductController - Getting product with id : 502
+2024-12-05T11:24:59.199+0100 INFO               [http-nio-8081-exec-8]         be.pxl.services.controller.ProductController - Getting product with id : 502
+2024-12-05T11:25:11.496+0100 INFO               [http-nio-8081-exec-6]         be.pxl.services.controller.ProductController - Getting product with id : 503
+2024-12-05T11:25:24.910+0100 INFO               [http-nio-8081-exec-10]        be.pxl.services.controller.ProductController - Getting product with id : 553
+2024-12-05T11:27:45.702+0100 INFO               [http-nio-8081-exec-1]         be.pxl.services.controller.ProductController - Getting product with id : 503
+2024-12-05T11:29:35.520+0100 INFO               [http-nio-8081-exec-3]         be.pxl.services.controller.ProductController - Getting product with id : 503
+2024-12-05T11:29:43.595+0100 INFO               [http-nio-8081-exec-4]         be.pxl.services.controller.ProductController - Getting product with id : 503
+2024-12-05T11:31:23.261+0100 INFO               [http-nio-8081-exec-7]         be.pxl.services.controller.ProductController - Getting product with id : 503
+2024-12-05T11:34:23.533+0100 INFO               [http-nio-8081-exec-6]         be.pxl.services.controller.ProductController - Getting product with id : 502
+2024-12-05T11:37:35.400+0100 INFO               [http-nio-8081-exec-9]         be.pxl.services.controller.ProductController - Getting product with id : 502
+2024-12-05T11:40:14.278+0100 INFO               [http-nio-8081-exec-2]         be.pxl.services.controller.ProductController - Getting product with id : 502
+2024-12-05T11:41:55.368+0100 INFO               [http-nio-8081-exec-4]         be.pxl.services.controller.ProductController - Getting product with id : 502
+2024-12-05T11:42:54.179+0100 INFO               [http-nio-8081-exec-5]         be.pxl.services.controller.ProductController - Getting product with id : 502
+2024-12-05T11:43:05.275+0100 INFO               [http-nio-8081-exec-7]         be.pxl.services.controller.ProductController - Getting product with id : 502
+2024-12-05T11:43:11.671+0100 INFO               [http-nio-8081-exec-8]         be.pxl.services.controller.ProductController - Getting product with id : 520
+2024-12-05T11:43:20.403+0100 INFO               [http-nio-8081-exec-6]         be.pxl.services.controller.ProductController - Getting product with id : 502
+2024-12-05T11:43:26.968+0100 INFO               [http-nio-8081-exec-10]        be.pxl.services.controller.ProductController - Getting product with id : 502
+2024-12-05T11:43:33.979+0100 INFO               [http-nio-8081-exec-9]         be.pxl.services.controller.ProductController - Getting product with id : 502
+2024-12-05T11:44:26.735+0100 INFO               [http-nio-8081-exec-1]         be.pxl.services.controller.ProductController - Getting product with id : 502
+2024-12-05T11:44:27.222+0100 INFO               [http-nio-8081-exec-2]         be.pxl.services.controller.ProductController - Getting product with id : 502
+2024-12-05T11:44:31.439+0100 INFO               [http-nio-8081-exec-3]         be.pxl.services.controller.ProductController - Getting product with id : 502
+2024-12-05T11:44:37.685+0100 INFO               [http-nio-8081-exec-4]         be.pxl.services.controller.ProductController - Getting product with id : 502
+2024-12-05T11:44:43.147+0100 INFO               [http-nio-8081-exec-5]         be.pxl.services.controller.ProductController - Getting product with id : 502
+2024-12-05T11:46:40.307+0100 INFO               [http-nio-8081-exec-8]         be.pxl.services.controller.ProductController - Getting product with id : 502
+2024-12-05T11:48:06.035+0100 INFO               [http-nio-8081-exec-10]        be.pxl.services.controller.ProductController - Getting product with id : 502
+2024-12-05T11:49:23.596+0100 INFO               [http-nio-8081-exec-1]         be.pxl.services.controller.ProductController - Getting product with id : 502
+2024-12-05T11:49:38.311+0100 INFO               [http-nio-8081-exec-2]         be.pxl.services.controller.ProductController - Getting product with id : 502
+2024-12-05T11:50:48.753+0100 INFO               [http-nio-8081-exec-4]         be.pxl.services.controller.ProductController - Getting product with id : 502
+2024-12-05T11:52:48.118+0100 INFO               [http-nio-8081-exec-7]         be.pxl.services.controller.ProductController - Getting product with id : 502
+2024-12-05T11:53:19.401+0100 INFO               [http-nio-8081-exec-8]         be.pxl.services.controller.ProductController - Getting product with id : 502
+2024-12-05T12:42:14.034+0100 INFO               [http-nio-8081-exec-10]        be.pxl.services.controller.ProductController - Getting product with id : 502
+2024-12-05T12:43:07.789+0100 INFO               [http-nio-8081-exec-9]         be.pxl.services.controller.ProductController - Getting product with id : 502
+2024-12-05T12:43:16.283+0100 INFO               [http-nio-8081-exec-1]         be.pxl.services.controller.ProductController - Updating product with id : 502by user : null
+2024-12-05T12:43:16.323+0100 INFO               [http-nio-8081-exec-1]         be.pxl.services.services.CatalogService - Product updated: test1e
+2024-12-05T12:43:16.323+0100 INFO               [http-nio-8081-exec-1]         be.pxl.services.services.CatalogService - Sending update message to logbook service
+2024-12-05T12:59:18.867+0100 INFO               [http-nio-8081-exec-3]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T12:59:28.263+0100 INFO               [http-nio-8081-exec-4]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T13:00:12.802+0100 INFO               [http-nio-8081-exec-5]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T13:00:28.305+0100 INFO               [http-nio-8081-exec-7]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T13:01:33.550+0100 INFO               [http-nio-8081-exec-6]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T13:01:45.384+0100 INFO               [http-nio-8081-exec-10]        be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T13:01:54.415+0100 INFO               [http-nio-8081-exec-9]         be.pxl.services.controller.ProductController - Getting product with id : 502
+2024-12-05T13:01:57.644+0100 INFO               [http-nio-8081-exec-1]         be.pxl.services.controller.ProductController - Getting product with id : 503
+2024-12-05T13:02:03.080+0100 INFO               [http-nio-8081-exec-2]         be.pxl.services.controller.ProductController - Getting product with id : 553
+2024-12-05T13:02:06.623+0100 INFO               [http-nio-8081-exec-3]         be.pxl.services.controller.ProductController - Getting product with id : 602
+2024-12-05T13:02:50.027+0100 INFO               [http-nio-8081-exec-4]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T13:03:05.310+0100 INFO               [http-nio-8081-exec-5]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T13:03:08.435+0100 INFO               [http-nio-8081-exec-7]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T13:03:13.812+0100 INFO               [http-nio-8081-exec-8]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T13:03:17.514+0100 INFO               [http-nio-8081-exec-6]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T13:04:52.238+0100 INFO               [http-nio-8081-exec-9]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T13:04:55.537+0100 INFO               [http-nio-8081-exec-1]         be.pxl.services.controller.ProductController - Getting product with id : 503
+2024-12-05T13:04:55.728+0100 INFO               [http-nio-8081-exec-2]         be.pxl.services.controller.ProductController - Getting product with id : 503
+2024-12-05T13:06:22.835+0100 INFO               [http-nio-8081-exec-4]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T13:07:35.650+0100 INFO               [http-nio-8081-exec-8]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T13:08:32.949+0100 INFO               [http-nio-8081-exec-6]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T13:08:34.819+0100 INFO               [http-nio-8081-exec-10]        be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T13:08:41.485+0100 INFO               [http-nio-8081-exec-9]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T13:08:44.028+0100 INFO               [http-nio-8081-exec-1]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T13:08:50.210+0100 INFO               [http-nio-8081-exec-3]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T13:10:52.079+0100 INFO               [http-nio-8081-exec-5]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T13:11:03.618+0100 INFO               [http-nio-8081-exec-7]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T13:11:07.358+0100 INFO               [http-nio-8081-exec-8]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T13:11:09.819+0100 INFO               [http-nio-8081-exec-10]        be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T13:11:21.503+0100 INFO               [http-nio-8081-exec-9]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T13:11:28.294+0100 INFO               [http-nio-8081-exec-2]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T13:14:12.861+0100 INFO               [http-nio-8081-exec-4]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T13:14:23.453+0100 INFO               [http-nio-8081-exec-5]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T13:14:30.453+0100 INFO               [http-nio-8081-exec-7]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T13:14:38.929+0100 INFO               [http-nio-8081-exec-8]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T13:18:18.397+0100 INFO               [http-nio-8081-exec-10]        be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T13:21:12.101+0100 INFO               [http-nio-8081-exec-1]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T13:21:13.191+0100 INFO               [http-nio-8081-exec-2]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T13:21:19.325+0100 INFO               [http-nio-8081-exec-3]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T13:21:35.988+0100 INFO               [http-nio-8081-exec-4]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T13:21:37.405+0100 INFO               [http-nio-8081-exec-5]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T13:21:50.852+0100 INFO               [http-nio-8081-exec-7]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T13:21:57.835+0100 INFO               [http-nio-8081-exec-8]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T13:22:05.994+0100 INFO               [http-nio-8081-exec-6]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T13:22:31.366+0100 INFO               [http-nio-8081-exec-10]        be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T13:22:41.999+0100 INFO               [http-nio-8081-exec-9]         be.pxl.services.controller.ProductController - Deleting product with id : 502
+2024-12-05T13:22:41.999+0100 INFO               [http-nio-8081-exec-9]         be.pxl.services.services.CatalogService - User qsdf is deleting product with id: 502
+2024-12-05T13:22:42.014+0100 INFO               [http-nio-8081-exec-9]         be.pxl.services.services.CatalogService - Sending delete message to logbook service
+2024-12-05T13:22:42.051+0100 INFO               [http-nio-8081-exec-1]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T13:22:56.245+0100 INFO               [http-nio-8081-exec-2]         be.pxl.services.controller.ProductController - Getting product with id : 503
+2024-12-05T13:23:57.729+0100 INFO               [http-nio-8081-exec-4]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T13:24:24.307+0100 INFO               [http-nio-8081-exec-5]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T13:24:26.674+0100 INFO               [http-nio-8081-exec-7]         be.pxl.services.controller.ProductController - Getting product with id : 503
+2024-12-05T13:26:11.809+0100 INFO               [http-nio-8081-exec-6]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T13:26:11.814+0100 INFO               [http-nio-8081-exec-10]        be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T13:26:18.521+0100 INFO               [http-nio-8081-exec-9]         be.pxl.services.controller.ProductController - Getting product with id : 552
+2024-12-05T13:26:24.448+0100 INFO               [http-nio-8081-exec-1]         be.pxl.services.controller.ProductController - Getting product with id : 0
+2024-12-05T13:27:54.789+0100 INFO               [http-nio-8081-exec-3]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T13:27:59.784+0100 INFO               [http-nio-8081-exec-4]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T13:28:01.042+0100 INFO               [http-nio-8081-exec-5]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T13:28:06.465+0100 INFO               [http-nio-8081-exec-7]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T13:28:10.493+0100 INFO               [http-nio-8081-exec-8]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T13:28:15.179+0100 INFO               [http-nio-8081-exec-6]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T13:28:40.341+0100 INFO               [http-nio-8081-exec-10]        be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T13:28:45.629+0100 INFO               [http-nio-8081-exec-9]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T13:28:46.749+0100 INFO               [http-nio-8081-exec-1]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T13:28:49.227+0100 INFO               [http-nio-8081-exec-2]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T13:28:52.099+0100 INFO               [http-nio-8081-exec-3]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T13:29:00.381+0100 INFO               [http-nio-8081-exec-4]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T13:29:01.335+0100 INFO               [http-nio-8081-exec-5]         be.pxl.services.controller.ProductController - Getting product with id : 503
+2024-12-05T13:29:03.361+0100 INFO               [http-nio-8081-exec-7]         be.pxl.services.controller.ProductController - Getting product with id : 503
+2024-12-05T13:29:05.332+0100 INFO               [http-nio-8081-exec-8]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T13:29:06.440+0100 INFO               [http-nio-8081-exec-6]         be.pxl.services.controller.ProductController - Getting product with id : 553
+2024-12-05T13:29:07.576+0100 INFO               [http-nio-8081-exec-10]        be.pxl.services.controller.ProductController - Getting product with id : 553
+2024-12-05T13:29:09.268+0100 INFO               [http-nio-8081-exec-9]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T14:05:09.327+0100 INFO               [http-nio-8081-exec-2]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T14:06:31.980+0100 INFO               [http-nio-8081-exec-4]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T14:09:06.511+0100 INFO               [http-nio-8081-exec-7]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T14:09:06.511+0100 INFO               [http-nio-8081-exec-8]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T14:15:23.858+0100 INFO               [http-nio-8081-exec-9]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T14:15:41.324+0100 INFO               [http-nio-8081-exec-1]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T14:15:41.442+0100 INFO               [http-nio-8081-exec-2]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T14:15:50.515+0100 INFO               [http-nio-8081-exec-3]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T14:16:07.826+0100 INFO               [http-nio-8081-exec-4]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T14:16:07.838+0100 INFO               [http-nio-8081-exec-5]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T14:16:08.944+0100 INFO               [http-nio-8081-exec-7]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T14:16:08.948+0100 INFO               [http-nio-8081-exec-8]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T14:16:10.707+0100 INFO               [http-nio-8081-exec-10]        be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T14:16:10.713+0100 INFO               [http-nio-8081-exec-6]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T14:16:14.567+0100 INFO               [http-nio-8081-exec-9]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T14:16:39.695+0100 INFO               [http-nio-8081-exec-1]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T14:17:06.309+0100 INFO               [http-nio-8081-exec-2]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T14:17:06.316+0100 INFO               [http-nio-8081-exec-3]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T14:17:08.889+0100 INFO               [http-nio-8081-exec-4]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T14:17:08.893+0100 INFO               [http-nio-8081-exec-5]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T14:17:19.962+0100 INFO               [http-nio-8081-exec-7]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T14:17:23.671+0100 INFO               [http-nio-8081-exec-8]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T14:18:05.522+0100 INFO               [http-nio-8081-exec-10]        be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T14:18:05.544+0100 INFO               [http-nio-8081-exec-6]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T14:18:07.934+0100 INFO               [http-nio-8081-exec-9]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T14:18:07.950+0100 INFO               [http-nio-8081-exec-1]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T14:18:17.963+0100 INFO               [http-nio-8081-exec-2]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T14:18:18.239+0100 INFO               [http-nio-8081-exec-3]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T14:18:27.319+0100 INFO               [http-nio-8081-exec-4]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T14:19:53.753+0100 INFO               [http-nio-8081-exec-8]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T14:19:53.759+0100 INFO               [http-nio-8081-exec-10]        be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T14:19:56.614+0100 INFO               [http-nio-8081-exec-6]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T14:19:56.620+0100 INFO               [http-nio-8081-exec-9]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T14:20:04.658+0100 INFO               [http-nio-8081-exec-1]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T14:20:04.674+0100 INFO               [http-nio-8081-exec-2]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T14:20:10.915+0100 INFO               [http-nio-8081-exec-3]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T14:21:17.887+0100 INFO               [http-nio-8081-exec-7]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T14:21:17.894+0100 INFO               [http-nio-8081-exec-8]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T14:21:19.361+0100 INFO               [http-nio-8081-exec-10]        be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T14:21:19.376+0100 INFO               [http-nio-8081-exec-6]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T14:23:42.371+0100 INFO               [http-nio-8081-exec-2]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T14:23:42.993+0100 INFO               [http-nio-8081-exec-3]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T14:26:24.053+0100 INFO               [http-nio-8081-exec-5]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T14:26:24.058+0100 INFO               [http-nio-8081-exec-7]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T14:26:26.260+0100 INFO               [http-nio-8081-exec-8]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T14:26:26.267+0100 INFO               [http-nio-8081-exec-10]        be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T14:26:30.115+0100 INFO               [http-nio-8081-exec-6]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T14:26:30.123+0100 INFO               [http-nio-8081-exec-9]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T14:26:50.938+0100 INFO               [http-nio-8081-exec-1]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T14:26:50.944+0100 INFO               [http-nio-8081-exec-2]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T14:28:28.505+0100 INFO               [http-nio-8081-exec-5]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T14:28:28.510+0100 INFO               [http-nio-8081-exec-7]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T14:29:07.124+0100 INFO               [http-nio-8081-exec-8]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T14:29:07.129+0100 INFO               [http-nio-8081-exec-10]        be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T14:29:14.045+0100 INFO               [http-nio-8081-exec-6]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T14:29:14.048+0100 INFO               [http-nio-8081-exec-9]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T14:29:16.744+0100 INFO               [http-nio-8081-exec-1]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T14:29:16.753+0100 INFO               [http-nio-8081-exec-2]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T14:29:32.872+0100 INFO               [http-nio-8081-exec-4]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T14:29:32.883+0100 INFO               [http-nio-8081-exec-3]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T14:29:39.308+0100 INFO               [http-nio-8081-exec-5]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T14:29:39.308+0100 INFO               [http-nio-8081-exec-7]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T14:29:40.923+0100 INFO               [http-nio-8081-exec-8]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T14:29:40.936+0100 INFO               [http-nio-8081-exec-10]        be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T14:30:21.697+0100 INFO               [http-nio-8081-exec-9]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T14:30:21.704+0100 INFO               [http-nio-8081-exec-6]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T14:30:25.875+0100 INFO               [http-nio-8081-exec-1]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T14:30:25.897+0100 INFO               [http-nio-8081-exec-2]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T14:30:35.462+0100 INFO               [http-nio-8081-exec-4]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T14:30:35.483+0100 INFO               [http-nio-8081-exec-3]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T14:33:11.844+0100 INFO               [http-nio-8081-exec-8]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T14:35:13.845+0100 INFO               [http-nio-8081-exec-9]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T14:35:21.558+0100 INFO               [http-nio-8081-exec-6]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T14:35:25.069+0100 INFO               [http-nio-8081-exec-1]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T14:35:31.812+0100 INFO               [http-nio-8081-exec-2]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T14:35:34.876+0100 INFO               [http-nio-8082-exec-6]         be.pxl.services.controller.ShoppingCartController - Adding product with id: 552 to cart with id: 110
+2024-12-05T14:35:35.095+0100 INFO               [http-nio-8081-exec-4]         be.pxl.services.controller.ProductController - Getting product with id : 552
+2024-12-05T14:35:35.190+0100 INFO               [http-nio-8082-exec-6]         be.pxl.services.services.CartService - Product with id552  added to cart
+2024-12-05T14:35:35.191+0100 INFO               [http-nio-8082-exec-6]         be.pxl.services.services.CartService - Shoppingcart has item : 1 itemsfrontendTest
+2024-12-05T14:35:55.875+0100 INFO               [http-nio-8082-exec-7]         be.pxl.services.controller.ShoppingCartController - Adding product with id: 602 to cart with id: 110
+2024-12-05T14:35:55.887+0100 INFO               [http-nio-8081-exec-3]         be.pxl.services.controller.ProductController - Getting product with id : 602
+2024-12-05T14:35:55.910+0100 INFO               [http-nio-8082-exec-7]         be.pxl.services.services.CartService - Product with id602  added to cart
+2024-12-05T14:35:55.910+0100 INFO               [http-nio-8082-exec-7]         be.pxl.services.services.CartService - Shoppingcart has item : 2 itemsfrontendTest
+2024-12-05T14:36:26.709+0100 INFO               [http-nio-8082-exec-10]        be.pxl.services.controller.ShoppingCartController - Adding product with id: 602 to cart with id: 110
+2024-12-05T14:36:26.720+0100 INFO               [http-nio-8081-exec-7]         be.pxl.services.controller.ProductController - Getting product with id : 602
+2024-12-05T14:36:26.727+0100 INFO               [http-nio-8082-exec-10]        be.pxl.services.services.CartService - Product with id602  added to cart
+2024-12-05T14:37:01.656+0100 INFO               [http-nio-8082-exec-8]         be.pxl.services.controller.ShoppingCartController - Adding product with id: 602 to cart with id: 110
+2024-12-05T14:37:01.665+0100 INFO               [http-nio-8081-exec-8]         be.pxl.services.controller.ProductController - Getting product with id : 602
+2024-12-05T14:37:01.671+0100 INFO               [http-nio-8082-exec-8]         be.pxl.services.services.CartService - Product with id602  added to cart
+2024-12-05T14:37:02.205+0100 INFO               [http-nio-8082-exec-9]         be.pxl.services.controller.ShoppingCartController - Adding product with id: 602 to cart with id: 110
+2024-12-05T14:37:02.214+0100 INFO               [http-nio-8081-exec-10]        be.pxl.services.controller.ProductController - Getting product with id : 602
+2024-12-05T14:37:02.220+0100 INFO               [http-nio-8082-exec-9]         be.pxl.services.services.CartService - Product with id602  added to cart
+2024-12-05T14:37:04.023+0100 INFO               [http-nio-8082-exec-1]         be.pxl.services.controller.ShoppingCartController - Adding product with id: 602 to cart with id: 110
+2024-12-05T14:37:04.032+0100 INFO               [http-nio-8081-exec-9]         be.pxl.services.controller.ProductController - Getting product with id : 602
+2024-12-05T14:37:04.038+0100 INFO               [http-nio-8082-exec-1]         be.pxl.services.services.CartService - Product with id602  added to cart
+2024-12-05T14:40:36.037+0100 INFO               [http-nio-8081-exec-1]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T14:40:55.156+0100 INFO               [http-nio-8081-exec-2]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T14:41:03.238+0100 INFO               [http-nio-8081-exec-4]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T14:41:06.941+0100 INFO               [http-nio-8082-exec-6]         be.pxl.services.controller.ShoppingCartController - Adding product with id: 503 to cart with id: 113
+2024-12-05T14:41:06.953+0100 INFO               [http-nio-8081-exec-3]         be.pxl.services.controller.ProductController - Getting product with id : 503
+2024-12-05T14:41:06.972+0100 INFO               [http-nio-8082-exec-6]         be.pxl.services.services.CartService - Product with id503  added to cart
+2024-12-05T14:41:06.972+0100 INFO               [http-nio-8082-exec-6]         be.pxl.services.services.CartService - Shoppingcart has item : 1 itemstest2
+2024-12-05T14:41:08.331+0100 INFO               [http-nio-8082-exec-7]         be.pxl.services.controller.ShoppingCartController - Adding product with id: 503 to cart with id: 113
+2024-12-05T14:41:08.342+0100 INFO               [http-nio-8081-exec-7]         be.pxl.services.controller.ProductController - Getting product with id : 503
+2024-12-05T14:41:08.349+0100 INFO               [http-nio-8082-exec-7]         be.pxl.services.services.CartService - Product with id503  added to cart
+2024-12-05T14:41:11.611+0100 INFO               [http-nio-8082-exec-10]        be.pxl.services.controller.ShoppingCartController - Adding product with id: 503 to cart with id: 113
+2024-12-05T14:41:11.621+0100 INFO               [http-nio-8081-exec-5]         be.pxl.services.controller.ProductController - Getting product with id : 503
+2024-12-05T14:41:11.628+0100 INFO               [http-nio-8082-exec-10]        be.pxl.services.services.CartService - Product with id503  added to cart
+2024-12-05T14:41:23.193+0100 INFO               [http-nio-8082-exec-8]         be.pxl.services.controller.ShoppingCartController - Adding product with id: 503 to cart with id: 113
+2024-12-05T14:41:23.205+0100 INFO               [http-nio-8081-exec-8]         be.pxl.services.controller.ProductController - Getting product with id : 503
+2024-12-05T14:41:23.211+0100 INFO               [http-nio-8082-exec-8]         be.pxl.services.services.CartService - Product with id503  added to cart
+2024-12-05T14:45:11.583+0100 INFO               [http-nio-8081-exec-6]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T14:45:11.590+0100 INFO               [http-nio-8081-exec-1]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T14:45:14.141+0100 INFO               [http-nio-8081-exec-2]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T14:45:14.152+0100 INFO               [http-nio-8081-exec-4]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T14:45:26.287+0100 INFO               [http-nio-8082-exec-5]         be.pxl.services.controller.ShoppingCartController - Adding product with id: 503 to cart with id: 116
+2024-12-05T14:45:26.297+0100 INFO               [http-nio-8081-exec-3]         be.pxl.services.controller.ProductController - Getting product with id : 503
+2024-12-05T14:45:26.315+0100 INFO               [http-nio-8082-exec-5]         be.pxl.services.services.CartService - Product with id503  added to cart
+2024-12-05T14:45:26.315+0100 INFO               [http-nio-8082-exec-5]         be.pxl.services.services.CartService - Shoppingcart has item : 1 itemstest2
+2024-12-05T14:45:29.003+0100 INFO               [http-nio-8082-exec-6]         be.pxl.services.controller.ShoppingCartController - Adding product with id: 503 to cart with id: 116
+2024-12-05T14:45:29.016+0100 INFO               [http-nio-8081-exec-7]         be.pxl.services.controller.ProductController - Getting product with id : 503
+2024-12-05T14:45:29.023+0100 INFO               [http-nio-8082-exec-6]         be.pxl.services.services.CartService - Product with id503  added to cart
+2024-12-05T14:45:31.492+0100 INFO               [http-nio-8082-exec-7]         be.pxl.services.controller.ShoppingCartController - Adding product with id: 503 to cart with id: 116
+2024-12-05T14:45:31.504+0100 INFO               [http-nio-8081-exec-5]         be.pxl.services.controller.ProductController - Getting product with id : 503
+2024-12-05T14:45:31.512+0100 INFO               [http-nio-8082-exec-7]         be.pxl.services.services.CartService - Product with id503  added to cart
+2024-12-05T14:47:04.268+0100 INFO               [http-nio-8081-exec-6]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T14:47:04.426+0100 INFO               [http-nio-8081-exec-1]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T14:51:43.511+0100 INFO               [http-nio-8081-exec-4]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T14:51:43.534+0100 INFO               [http-nio-8081-exec-3]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T14:52:36.397+0100 INFO               [http-nio-8081-exec-7]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T14:52:36.416+0100 INFO               [http-nio-8081-exec-5]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T14:55:21.118+0100 INFO               [http-nio-8081-exec-10]        be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T14:55:21.119+0100 INFO               [http-nio-8081-exec-9]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T14:55:36.325+0100 INFO               [http-nio-8081-exec-6]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T14:55:37.338+0100 INFO               [http-nio-8081-exec-1]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T14:55:48.451+0100 INFO               [http-nio-8081-exec-2]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T14:55:49.133+0100 INFO               [http-nio-8081-exec-4]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T14:55:50.057+0100 INFO               [http-nio-8081-exec-3]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T14:55:50.239+0100 INFO               [http-nio-8081-exec-7]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T15:01:08.780+0100 INFO               [http-nio-8081-exec-10]        be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T15:01:08.856+0100 INFO               [http-nio-8081-exec-9]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T15:01:21.950+0100 INFO               [http-nio-8081-exec-6]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T15:01:21.958+0100 INFO               [http-nio-8081-exec-1]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T15:01:36.332+0100 INFO               [http-nio-8081-exec-2]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T15:01:36.341+0100 INFO               [http-nio-8081-exec-4]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T15:01:37.525+0100 INFO               [http-nio-8081-exec-3]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T15:01:37.551+0100 INFO               [http-nio-8081-exec-7]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T15:02:06.934+0100 INFO               [http-nio-8081-exec-8]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T15:02:06.938+0100 INFO               [http-nio-8081-exec-5]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T15:02:08.123+0100 INFO               [http-nio-8081-exec-10]        be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T15:02:08.130+0100 INFO               [http-nio-8081-exec-9]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T15:02:10.042+0100 INFO               [http-nio-8081-exec-6]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T15:02:10.051+0100 INFO               [http-nio-8081-exec-1]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T15:02:12.169+0100 INFO               [http-nio-8081-exec-2]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T15:02:12.174+0100 INFO               [http-nio-8081-exec-4]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T15:02:19.695+0100 INFO               [http-nio-8081-exec-3]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T15:02:19.699+0100 INFO               [http-nio-8081-exec-7]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T15:02:44.453+0100 INFO               [http-nio-8081-exec-8]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T15:02:44.461+0100 INFO               [http-nio-8081-exec-5]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T15:02:53.535+0100 INFO               [http-nio-8081-exec-10]        be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T15:02:53.553+0100 INFO               [http-nio-8081-exec-9]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T15:02:54.615+0100 INFO               [http-nio-8081-exec-6]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T15:02:54.641+0100 INFO               [http-nio-8081-exec-1]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T15:02:56.290+0100 INFO               [http-nio-8081-exec-2]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T15:02:56.305+0100 INFO               [http-nio-8081-exec-4]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T15:03:03.912+0100 INFO               [http-nio-8081-exec-3]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T15:03:05.691+0100 INFO               [http-nio-8081-exec-7]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T15:03:07.735+0100 INFO               [http-nio-8081-exec-8]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T15:03:11.414+0100 INFO               [http-nio-8082-exec-7]         be.pxl.services.controller.ShoppingCartController - Adding product with id: 503 to cart with id: 160
+2024-12-05T15:03:11.426+0100 INFO               [http-nio-8081-exec-5]         be.pxl.services.controller.ProductController - Getting product with id : 503
+2024-12-05T15:03:11.446+0100 INFO               [http-nio-8082-exec-7]         be.pxl.services.services.CartService - Product with id503  added to cart
+2024-12-05T15:03:11.447+0100 INFO               [http-nio-8082-exec-7]         be.pxl.services.services.CartService - Shoppingcart has item : 1 itemstest2
+2024-12-05T15:03:13.766+0100 INFO               [http-nio-8082-exec-8]         be.pxl.services.controller.ShoppingCartController - Adding product with id: 552 to cart with id: 160
+2024-12-05T15:03:13.776+0100 INFO               [http-nio-8081-exec-10]        be.pxl.services.controller.ProductController - Getting product with id : 552
+2024-12-05T15:03:13.796+0100 INFO               [http-nio-8082-exec-8]         be.pxl.services.services.CartService - Product with id552  added to cart
+2024-12-05T15:03:13.797+0100 INFO               [http-nio-8082-exec-8]         be.pxl.services.services.CartService - Shoppingcart has item : 2 itemstest2
+2024-12-05T15:03:15.581+0100 INFO               [http-nio-8082-exec-9]         be.pxl.services.controller.ShoppingCartController - Adding product with id: 602 to cart with id: 160
+2024-12-05T15:03:15.591+0100 INFO               [http-nio-8081-exec-9]         be.pxl.services.controller.ProductController - Getting product with id : 602
+2024-12-05T15:03:15.617+0100 INFO               [http-nio-8082-exec-9]         be.pxl.services.services.CartService - Product with id602  added to cart
+2024-12-05T15:03:15.617+0100 INFO               [http-nio-8082-exec-9]         be.pxl.services.services.CartService - Shoppingcart has item : 3 itemstest2
+2024-12-05T15:03:16.066+0100 INFO               [http-nio-8082-exec-1]         be.pxl.services.controller.ShoppingCartController - Adding product with id: 602 to cart with id: 160
+2024-12-05T15:03:16.073+0100 INFO               [http-nio-8081-exec-6]         be.pxl.services.controller.ProductController - Getting product with id : 602
+2024-12-05T15:03:16.078+0100 INFO               [http-nio-8082-exec-1]         be.pxl.services.services.CartService - Product with id602  added to cart
+2024-12-05T15:03:57.118+0100 INFO               [http-nio-8081-exec-1]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T15:03:57.139+0100 INFO               [http-nio-8081-exec-2]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T15:04:00.973+0100 INFO               [http-nio-8082-exec-4]         be.pxl.services.controller.ShoppingCartController - Adding product with id: 503 to cart with id: 161
+2024-12-05T15:04:00.981+0100 INFO               [http-nio-8081-exec-4]         be.pxl.services.controller.ProductController - Getting product with id : 503
+2024-12-05T15:04:01.003+0100 INFO               [http-nio-8082-exec-4]         be.pxl.services.services.CartService - Product with id503  added to cart
+2024-12-05T15:04:01.003+0100 INFO               [http-nio-8082-exec-4]         be.pxl.services.services.CartService - Shoppingcart has item : 1 itemstest2
+2024-12-05T15:04:09.914+0100 INFO               [http-nio-8081-exec-3]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T15:04:10.974+0100 INFO               [http-nio-8082-exec-7]         be.pxl.services.controller.ShoppingCartController - Adding product with id: 503 to cart with id: 163
+2024-12-05T15:04:10.981+0100 INFO               [http-nio-8081-exec-7]         be.pxl.services.controller.ProductController - Getting product with id : 503
+2024-12-05T15:04:10.997+0100 INFO               [http-nio-8082-exec-7]         be.pxl.services.services.CartService - Product with id503  added to cart
+2024-12-05T15:04:10.997+0100 INFO               [http-nio-8082-exec-7]         be.pxl.services.services.CartService - Shoppingcart has item : 1 itemstest2
+2024-12-05T15:04:11.672+0100 INFO               [http-nio-8082-exec-8]         be.pxl.services.controller.ShoppingCartController - Adding product with id: 503 to cart with id: 163
+2024-12-05T15:04:11.682+0100 INFO               [http-nio-8081-exec-8]         be.pxl.services.controller.ProductController - Getting product with id : 503
+2024-12-05T15:04:11.689+0100 INFO               [http-nio-8082-exec-8]         be.pxl.services.services.CartService - Product with id503  added to cart
+2024-12-05T15:04:12.651+0100 INFO               [http-nio-8082-exec-9]         be.pxl.services.controller.ShoppingCartController - Adding product with id: 553 to cart with id: 163
+2024-12-05T15:04:12.659+0100 INFO               [http-nio-8081-exec-5]         be.pxl.services.controller.ProductController - Getting product with id : 553
+2024-12-05T15:04:12.679+0100 INFO               [http-nio-8082-exec-9]         be.pxl.services.services.CartService - Product with id553  added to cart
+2024-12-05T15:04:12.679+0100 INFO               [http-nio-8082-exec-9]         be.pxl.services.services.CartService - Shoppingcart has item : 2 itemstest2
+2024-12-05T15:05:26.040+0100 INFO               [http-nio-8081-exec-1]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T15:05:30.292+0100 INFO               [http-nio-8081-exec-2]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T15:05:33.876+0100 INFO               [http-nio-8081-exec-4]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T15:05:35.845+0100 INFO               [http-nio-8081-exec-3]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T15:05:50.086+0100 INFO               [http-nio-8081-exec-7]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T15:05:52.397+0100 INFO               [http-nio-8081-exec-8]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T15:05:56.804+0100 INFO               [http-nio-8081-exec-5]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T15:05:57.972+0100 INFO               [http-nio-8082-exec-10]        be.pxl.services.controller.ShoppingCartController - Adding product with id: 503 to cart with id: 170
+2024-12-05T15:05:57.981+0100 INFO               [http-nio-8081-exec-10]        be.pxl.services.controller.ProductController - Getting product with id : 503
+2024-12-05T15:05:57.999+0100 INFO               [http-nio-8082-exec-10]        be.pxl.services.services.CartService - Product with id503  added to cart
+2024-12-05T15:05:57.999+0100 INFO               [http-nio-8082-exec-10]        be.pxl.services.services.CartService - Shoppingcart has item : 1 itemstest2
+2024-12-05T15:05:58.144+0100 INFO               [http-nio-8082-exec-7]         be.pxl.services.controller.ShoppingCartController - Adding product with id: 503 to cart with id: 170
+2024-12-05T15:05:58.154+0100 INFO               [http-nio-8081-exec-9]         be.pxl.services.controller.ProductController - Getting product with id : 503
+2024-12-05T15:05:58.162+0100 INFO               [http-nio-8082-exec-7]         be.pxl.services.services.CartService - Product with id503  added to cart
+2024-12-05T15:05:58.301+0100 INFO               [http-nio-8082-exec-8]         be.pxl.services.controller.ShoppingCartController - Adding product with id: 503 to cart with id: 170
+2024-12-05T15:05:58.310+0100 INFO               [http-nio-8081-exec-6]         be.pxl.services.controller.ProductController - Getting product with id : 503
+2024-12-05T15:05:58.314+0100 INFO               [http-nio-8082-exec-8]         be.pxl.services.services.CartService - Product with id503  added to cart
+2024-12-05T15:06:01.293+0100 INFO               [http-nio-8082-exec-9]         be.pxl.services.controller.ShoppingCartController - Adding product with id: 552 to cart with id: 170
+2024-12-05T15:06:01.301+0100 INFO               [http-nio-8081-exec-1]         be.pxl.services.controller.ProductController - Getting product with id : 552
+2024-12-05T15:06:01.323+0100 INFO               [http-nio-8082-exec-9]         be.pxl.services.services.CartService - Product with id552  added to cart
+2024-12-05T15:06:01.323+0100 INFO               [http-nio-8082-exec-9]         be.pxl.services.services.CartService - Shoppingcart has item : 2 itemstest2
+2024-12-05T15:06:40.956+0100 INFO               [http-nio-8081-exec-2]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T15:06:43.879+0100 INFO               [http-nio-8081-exec-4]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T15:06:44.678+0100 INFO               [http-nio-8082-exec-5]         be.pxl.services.controller.ShoppingCartController - Adding product with id: 503 to cart with id: 172
+2024-12-05T15:06:44.687+0100 INFO               [http-nio-8081-exec-3]         be.pxl.services.controller.ProductController - Getting product with id : 503
+2024-12-05T15:06:44.707+0100 INFO               [http-nio-8082-exec-5]         be.pxl.services.services.CartService - Product with id503  added to cart
+2024-12-05T15:06:44.708+0100 INFO               [http-nio-8082-exec-5]         be.pxl.services.services.CartService - Shoppingcart has item : 1 itemstest2
+2024-12-05T15:06:44.845+0100 INFO               [http-nio-8082-exec-6]         be.pxl.services.controller.ShoppingCartController - Adding product with id: 503 to cart with id: 172
+2024-12-05T15:06:44.856+0100 INFO               [http-nio-8081-exec-7]         be.pxl.services.controller.ProductController - Getting product with id : 503
+2024-12-05T15:06:44.863+0100 INFO               [http-nio-8082-exec-6]         be.pxl.services.services.CartService - Product with id503  added to cart
+2024-12-05T15:06:45.018+0100 INFO               [http-nio-8082-exec-10]        be.pxl.services.controller.ShoppingCartController - Adding product with id: 503 to cart with id: 172
+2024-12-05T15:06:45.028+0100 INFO               [http-nio-8081-exec-8]         be.pxl.services.controller.ProductController - Getting product with id : 503
+2024-12-05T15:06:45.034+0100 INFO               [http-nio-8082-exec-10]        be.pxl.services.services.CartService - Product with id503  added to cart
+2024-12-05T15:06:45.151+0100 INFO               [http-nio-8082-exec-7]         be.pxl.services.controller.ShoppingCartController - Adding product with id: 503 to cart with id: 172
+2024-12-05T15:06:45.159+0100 INFO               [http-nio-8081-exec-5]         be.pxl.services.controller.ProductController - Getting product with id : 503
+2024-12-05T15:06:45.164+0100 INFO               [http-nio-8082-exec-7]         be.pxl.services.services.CartService - Product with id503  added to cart
+2024-12-05T15:06:48.128+0100 INFO               [http-nio-8082-exec-8]         be.pxl.services.controller.ShoppingCartController - Adding product with id: 553 to cart with id: 172
+2024-12-05T15:06:48.138+0100 INFO               [http-nio-8081-exec-10]        be.pxl.services.controller.ProductController - Getting product with id : 553
+2024-12-05T15:06:48.157+0100 INFO               [http-nio-8082-exec-8]         be.pxl.services.services.CartService - Product with id553  added to cart
+2024-12-05T15:06:48.157+0100 INFO               [http-nio-8082-exec-8]         be.pxl.services.services.CartService - Shoppingcart has item : 2 itemstest2
+2024-12-05T15:06:58.555+0100 INFO               [http-nio-8081-exec-9]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T15:06:59.550+0100 INFO               [http-nio-8082-exec-5]         be.pxl.services.controller.ShoppingCartController - Adding product with id: 503 to cart with id: 173
+2024-12-05T15:06:59.559+0100 INFO               [http-nio-8081-exec-6]         be.pxl.services.controller.ProductController - Getting product with id : 503
+2024-12-05T15:06:59.581+0100 INFO               [http-nio-8082-exec-5]         be.pxl.services.services.CartService - Product with id503  added to cart
+2024-12-05T15:06:59.581+0100 INFO               [http-nio-8082-exec-5]         be.pxl.services.services.CartService - Shoppingcart has item : 1 itemstest2
+2024-12-05T15:06:59.718+0100 INFO               [http-nio-8082-exec-6]         be.pxl.services.controller.ShoppingCartController - Adding product with id: 503 to cart with id: 173
+2024-12-05T15:06:59.728+0100 INFO               [http-nio-8081-exec-1]         be.pxl.services.controller.ProductController - Getting product with id : 503
+2024-12-05T15:06:59.736+0100 INFO               [http-nio-8082-exec-6]         be.pxl.services.services.CartService - Product with id503  added to cart
+2024-12-05T15:06:59.878+0100 INFO               [http-nio-8082-exec-10]        be.pxl.services.controller.ShoppingCartController - Adding product with id: 503 to cart with id: 173
+2024-12-05T15:06:59.884+0100 INFO               [http-nio-8081-exec-2]         be.pxl.services.controller.ProductController - Getting product with id : 503
+2024-12-05T15:06:59.889+0100 INFO               [http-nio-8082-exec-10]        be.pxl.services.services.CartService - Product with id503  added to cart
+2024-12-05T15:07:00.036+0100 INFO               [http-nio-8082-exec-7]         be.pxl.services.controller.ShoppingCartController - Adding product with id: 503 to cart with id: 173
+2024-12-05T15:07:00.043+0100 INFO               [http-nio-8081-exec-4]         be.pxl.services.controller.ProductController - Getting product with id : 503
+2024-12-05T15:07:00.047+0100 INFO               [http-nio-8082-exec-7]         be.pxl.services.services.CartService - Product with id503  added to cart
+2024-12-05T15:11:46.460+0100 INFO               [http-nio-8081-exec-8]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T15:11:48.477+0100 INFO               [http-nio-8082-exec-3]         be.pxl.services.controller.ShoppingCartController - Adding product with id: 552 to cart with id: 174
+2024-12-05T15:11:48.488+0100 INFO               [http-nio-8081-exec-5]         be.pxl.services.controller.ProductController - Getting product with id : 552
+2024-12-05T15:11:48.508+0100 INFO               [http-nio-8082-exec-3]         be.pxl.services.services.CartService - Product with id552  added to cart
+2024-12-05T15:11:48.508+0100 INFO               [http-nio-8082-exec-3]         be.pxl.services.services.CartService - Shoppingcart has item : 1 itemsfrontendTest
+2024-12-05T15:11:50.419+0100 INFO               [http-nio-8082-exec-2]         be.pxl.services.controller.ShoppingCartController - Adding product with id: 602 to cart with id: 174
+2024-12-05T15:11:50.427+0100 INFO               [http-nio-8081-exec-10]        be.pxl.services.controller.ProductController - Getting product with id : 602
+2024-12-05T15:11:50.442+0100 INFO               [http-nio-8082-exec-2]         be.pxl.services.services.CartService - Product with id602  added to cart
+2024-12-05T15:11:50.442+0100 INFO               [http-nio-8082-exec-2]         be.pxl.services.services.CartService - Shoppingcart has item : 2 itemsfrontendTest
+2024-12-05T15:18:40.869+0100 INFO               [http-nio-8081-exec-1]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T15:18:42.283+0100 INFO               [http-nio-8082-exec-3]         be.pxl.services.controller.ShoppingCartController - Adding product with id: 503 to cart with id: 175
+2024-12-05T15:18:42.291+0100 INFO               [http-nio-8081-exec-2]         be.pxl.services.controller.ProductController - Getting product with id : 503
+2024-12-05T15:18:42.316+0100 INFO               [http-nio-8082-exec-3]         be.pxl.services.services.CartService - Product with id503  added to cart
+2024-12-05T15:18:42.316+0100 INFO               [http-nio-8082-exec-3]         be.pxl.services.services.CartService - Shoppingcart has item : 1 itemstest2
+2024-12-05T15:18:42.655+0100 INFO               [http-nio-8082-exec-2]         be.pxl.services.controller.ShoppingCartController - Adding product with id: 503 to cart with id: 175
+2024-12-05T15:18:42.664+0100 INFO               [http-nio-8081-exec-4]         be.pxl.services.controller.ProductController - Getting product with id : 503
+2024-12-05T15:18:42.671+0100 INFO               [http-nio-8082-exec-2]         be.pxl.services.services.CartService - Product with id503  added to cart
+2024-12-05T15:26:36.157+0100 INFO               [http-nio-8081-exec-8]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T15:26:37.938+0100 INFO               [http-nio-8082-exec-3]         be.pxl.services.controller.ShoppingCartController - Adding product with id: 503 to cart with id: 176
+2024-12-05T15:26:37.948+0100 INFO               [http-nio-8081-exec-5]         be.pxl.services.controller.ProductController - Getting product with id : 503
+2024-12-05T15:26:37.972+0100 INFO               [http-nio-8082-exec-3]         be.pxl.services.services.CartService - Product with id503  added to cart
+2024-12-05T15:26:37.972+0100 INFO               [http-nio-8082-exec-3]         be.pxl.services.services.CartService - Shoppingcart has item : 1 itemstest2
+2024-12-05T15:26:38.161+0100 INFO               [http-nio-8082-exec-2]         be.pxl.services.controller.ShoppingCartController - Adding product with id: 503 to cart with id: 176
+2024-12-05T15:26:38.168+0100 INFO               [http-nio-8081-exec-10]        be.pxl.services.controller.ProductController - Getting product with id : 503
+2024-12-05T15:26:38.172+0100 INFO               [http-nio-8082-exec-2]         be.pxl.services.services.CartService - Product with id503  added to cart
+2024-12-05T15:26:38.321+0100 INFO               [http-nio-8082-exec-4]         be.pxl.services.controller.ShoppingCartController - Adding product with id: 503 to cart with id: 176
+2024-12-05T15:26:38.328+0100 INFO               [http-nio-8081-exec-9]         be.pxl.services.controller.ProductController - Getting product with id : 503
+2024-12-05T15:26:38.334+0100 INFO               [http-nio-8082-exec-4]         be.pxl.services.services.CartService - Product with id503  added to cart
+2024-12-05T15:26:39.339+0100 INFO               [http-nio-8082-exec-5]         be.pxl.services.controller.ShoppingCartController - Adding product with id: 553 to cart with id: 176
+2024-12-05T15:26:39.349+0100 INFO               [http-nio-8081-exec-6]         be.pxl.services.controller.ProductController - Getting product with id : 553
+2024-12-05T15:26:39.372+0100 INFO               [http-nio-8082-exec-5]         be.pxl.services.services.CartService - Product with id553  added to cart
+2024-12-05T15:26:39.372+0100 INFO               [http-nio-8082-exec-5]         be.pxl.services.services.CartService - Shoppingcart has item : 2 itemstest2
+2024-12-05T15:26:39.505+0100 INFO               [http-nio-8082-exec-6]         be.pxl.services.controller.ShoppingCartController - Adding product with id: 553 to cart with id: 176
+2024-12-05T15:26:39.511+0100 INFO               [http-nio-8081-exec-1]         be.pxl.services.controller.ProductController - Getting product with id : 553
+2024-12-05T15:26:39.516+0100 INFO               [http-nio-8082-exec-6]         be.pxl.services.services.CartService - Product with id553  added to cart
+2024-12-05T15:34:23.679+0100 INFO               [main]                         be.pxl.services.ShoppingCartServiceApp - Starting ShoppingCartServiceApp using Java 21.0.2 with PID 25828 (D:\fullstack Java Labs\learning-microservices-with-spring-cloud-BennethKaminskiPXL\backend-java\DuurzaamShopPlatform\shoppingcart-service\target\classes started by kamin in D:\fullstack Java Labs\learning-microservices-with-spring-cloud-BennethKaminskiPXL\backend-java)
+2024-12-05T15:34:23.680+0100 DEBUG              [main]                         be.pxl.services.ShoppingCartServiceApp - Running with Spring Boot v3.3.4, Spring v6.1.13
+2024-12-05T15:34:23.681+0100 INFO               [main]                         be.pxl.services.ShoppingCartServiceApp - No active profile set, falling back to 1 default profile: "default"
+2024-12-05T15:34:27.831+0100 INFO               [main]                         be.pxl.services.ShoppingCartServiceApp - Started ShoppingCartServiceApp in 5.131 seconds (process running for 5.902)
+2024-12-05T15:35:39.742+0100 INFO               [http-nio-8081-exec-3]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T15:35:40.903+0100 INFO               [http-nio-8082-exec-4]         be.pxl.services.controller.ShoppingCartController - Adding product with id: 503 to cart with id: 202
+2024-12-05T15:35:40.959+0100 INFO               [http-nio-8081-exec-7]         be.pxl.services.controller.ProductController - Getting product with id : 503
+2024-12-05T15:35:41.023+0100 INFO               [http-nio-8082-exec-4]         be.pxl.services.services.CartService - Product with id503  added to cart
+2024-12-05T15:35:41.023+0100 INFO               [http-nio-8082-exec-4]         be.pxl.services.services.CartService - Shoppingcart has item : 1 itemstest2
+2024-12-05T15:35:41.079+0100 INFO               [http-nio-8082-exec-5]         be.pxl.services.controller.ShoppingCartController - Adding product with id: 503 to cart with id: 202
+2024-12-05T15:35:41.086+0100 INFO               [http-nio-8081-exec-8]         be.pxl.services.controller.ProductController - Getting product with id : 503
+2024-12-05T15:35:41.092+0100 INFO               [http-nio-8082-exec-5]         be.pxl.services.services.CartService - Product with id503  added to cart
+2024-12-05T15:35:41.255+0100 INFO               [http-nio-8082-exec-6]         be.pxl.services.controller.ShoppingCartController - Adding product with id: 503 to cart with id: 202
+2024-12-05T15:35:41.264+0100 INFO               [http-nio-8081-exec-5]         be.pxl.services.controller.ProductController - Getting product with id : 503
+2024-12-05T15:35:41.268+0100 INFO               [http-nio-8082-exec-6]         be.pxl.services.services.CartService - Product with id503  added to cart
+2024-12-05T15:35:41.910+0100 INFO               [http-nio-8082-exec-7]         be.pxl.services.controller.ShoppingCartController - Adding product with id: 552 to cart with id: 202
+2024-12-05T15:35:41.921+0100 INFO               [http-nio-8081-exec-10]        be.pxl.services.controller.ProductController - Getting product with id : 552
+2024-12-05T15:35:41.945+0100 INFO               [http-nio-8082-exec-7]         be.pxl.services.services.CartService - Product with id552  added to cart
+2024-12-05T15:35:41.946+0100 INFO               [http-nio-8082-exec-7]         be.pxl.services.services.CartService - Shoppingcart has item : 2 itemstest2
+2024-12-05T15:35:42.079+0100 INFO               [http-nio-8082-exec-8]         be.pxl.services.controller.ShoppingCartController - Adding product with id: 552 to cart with id: 202
+2024-12-05T15:35:42.086+0100 INFO               [http-nio-8081-exec-9]         be.pxl.services.controller.ProductController - Getting product with id : 552
+2024-12-05T15:35:42.091+0100 INFO               [http-nio-8082-exec-8]         be.pxl.services.services.CartService - Product with id552  added to cart
+2024-12-05T15:38:46.405+0100 INFO               [http-nio-8081-exec-2]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T15:38:48.535+0100 INFO               [http-nio-8082-exec-5]         be.pxl.services.controller.ShoppingCartController - Adding product with id: 503 to cart with id: 203
+2024-12-05T15:38:48.547+0100 INFO               [http-nio-8081-exec-4]         be.pxl.services.controller.ProductController - Getting product with id : 503
+2024-12-05T15:38:48.580+0100 INFO               [http-nio-8082-exec-5]         be.pxl.services.services.CartService - Product with id503  added to cart
+2024-12-05T15:38:48.580+0100 INFO               [http-nio-8082-exec-5]         be.pxl.services.services.CartService - Shoppingcart has item : 1 itemstest2
+2024-12-05T15:38:49.053+0100 INFO               [http-nio-8082-exec-6]         be.pxl.services.controller.ShoppingCartController - Adding product with id: 503 to cart with id: 203
+2024-12-05T15:38:49.060+0100 INFO               [http-nio-8081-exec-3]         be.pxl.services.controller.ProductController - Getting product with id : 503
+2024-12-05T15:38:49.066+0100 INFO               [http-nio-8082-exec-6]         be.pxl.services.services.CartService - Product with id503  added to cart
+2024-12-05T15:38:49.464+0100 INFO               [http-nio-8082-exec-7]         be.pxl.services.controller.ShoppingCartController - Adding product with id: 503 to cart with id: 203
+2024-12-05T15:38:49.474+0100 INFO               [http-nio-8081-exec-7]         be.pxl.services.controller.ProductController - Getting product with id : 503
+2024-12-05T15:38:49.480+0100 INFO               [http-nio-8082-exec-7]         be.pxl.services.services.CartService - Product with id503  added to cart
+2024-12-05T15:38:49.788+0100 INFO               [http-nio-8082-exec-8]         be.pxl.services.controller.ShoppingCartController - Adding product with id: 503 to cart with id: 203
+2024-12-05T15:38:49.796+0100 INFO               [http-nio-8081-exec-8]         be.pxl.services.controller.ProductController - Getting product with id : 503
+2024-12-05T15:38:49.801+0100 INFO               [http-nio-8082-exec-8]         be.pxl.services.services.CartService - Product with id503  added to cart
+2024-12-05T15:38:50.820+0100 INFO               [http-nio-8082-exec-9]         be.pxl.services.controller.ShoppingCartController - Adding product with id: 553 to cart with id: 203
+2024-12-05T15:38:50.829+0100 INFO               [http-nio-8081-exec-5]         be.pxl.services.controller.ProductController - Getting product with id : 553
+2024-12-05T15:38:50.848+0100 INFO               [http-nio-8082-exec-9]         be.pxl.services.services.CartService - Product with id553  added to cart
+2024-12-05T15:38:50.848+0100 INFO               [http-nio-8082-exec-9]         be.pxl.services.services.CartService - Shoppingcart has item : 2 itemstest2
+2024-12-05T15:38:51.074+0100 INFO               [http-nio-8082-exec-10]        be.pxl.services.controller.ShoppingCartController - Adding product with id: 553 to cart with id: 203
+2024-12-05T15:38:51.084+0100 INFO               [http-nio-8081-exec-10]        be.pxl.services.controller.ProductController - Getting product with id : 553
+2024-12-05T15:38:51.091+0100 INFO               [http-nio-8082-exec-10]        be.pxl.services.services.CartService - Product with id553  added to cart
+2024-12-05T15:38:51.300+0100 INFO               [http-nio-8082-exec-1]         be.pxl.services.controller.ShoppingCartController - Adding product with id: 553 to cart with id: 203
+2024-12-05T15:38:51.312+0100 INFO               [http-nio-8081-exec-9]         be.pxl.services.controller.ProductController - Getting product with id : 553
+2024-12-05T15:38:51.319+0100 INFO               [http-nio-8082-exec-1]         be.pxl.services.services.CartService - Product with id553  added to cart
+2024-12-05T15:38:51.703+0100 INFO               [http-nio-8082-exec-2]         be.pxl.services.controller.ShoppingCartController - Adding product with id: 553 to cart with id: 203
+2024-12-05T15:38:51.712+0100 INFO               [http-nio-8081-exec-6]         be.pxl.services.controller.ProductController - Getting product with id : 553
+2024-12-05T15:38:51.719+0100 INFO               [http-nio-8082-exec-2]         be.pxl.services.services.CartService - Product with id553  added to cart
+2024-12-05T15:42:28.424+0100 INFO               [http-nio-8081-exec-4]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T15:42:29.766+0100 INFO               [http-nio-8082-exec-6]         be.pxl.services.controller.ShoppingCartController - Adding product with id: 503 to cart with id: 204
+2024-12-05T15:42:29.777+0100 INFO               [http-nio-8081-exec-3]         be.pxl.services.controller.ProductController - Getting product with id : 503
+2024-12-05T15:42:29.798+0100 INFO               [http-nio-8082-exec-6]         be.pxl.services.services.CartService - Product with id503  added to cart
+2024-12-05T15:42:29.798+0100 INFO               [http-nio-8082-exec-6]         be.pxl.services.services.CartService - Shoppingcart has item : 1 itemstest2
+2024-12-05T15:42:30.098+0100 INFO               [http-nio-8082-exec-7]         be.pxl.services.controller.ShoppingCartController - Adding product with id: 503 to cart with id: 204
+2024-12-05T15:42:30.108+0100 INFO               [http-nio-8081-exec-7]         be.pxl.services.controller.ProductController - Getting product with id : 503
+2024-12-05T15:42:30.115+0100 INFO               [http-nio-8082-exec-7]         be.pxl.services.services.CartService - Product with id503  added to cart
+2024-12-05T15:42:30.339+0100 INFO               [http-nio-8082-exec-8]         be.pxl.services.controller.ShoppingCartController - Adding product with id: 503 to cart with id: 204
+2024-12-05T15:42:30.345+0100 INFO               [http-nio-8081-exec-8]         be.pxl.services.controller.ProductController - Getting product with id : 503
+2024-12-05T15:42:30.350+0100 INFO               [http-nio-8082-exec-8]         be.pxl.services.services.CartService - Product with id503  added to cart
+2024-12-05T15:42:30.516+0100 INFO               [http-nio-8082-exec-9]         be.pxl.services.controller.ShoppingCartController - Adding product with id: 503 to cart with id: 204
+2024-12-05T15:42:30.527+0100 INFO               [http-nio-8081-exec-5]         be.pxl.services.controller.ProductController - Getting product with id : 503
+2024-12-05T15:42:30.533+0100 INFO               [http-nio-8082-exec-9]         be.pxl.services.services.CartService - Product with id503  added to cart
+2024-12-05T15:42:30.692+0100 INFO               [http-nio-8082-exec-10]        be.pxl.services.controller.ShoppingCartController - Adding product with id: 503 to cart with id: 204
+2024-12-05T15:42:30.700+0100 INFO               [http-nio-8081-exec-10]        be.pxl.services.controller.ProductController - Getting product with id : 503
+2024-12-05T15:42:30.706+0100 INFO               [http-nio-8082-exec-10]        be.pxl.services.services.CartService - Product with id503  added to cart
+2024-12-05T15:45:23.356+0100 INFO               [http-nio-8081-exec-1]         be.pxl.services.controller.ProductController - Getting product with id : 503
+2024-12-05T15:45:29.143+0100 INFO               [http-nio-8081-exec-2]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T15:45:31.683+0100 INFO               [http-nio-8082-exec-9]         be.pxl.services.controller.ShoppingCartController - Adding product with id: 503 to cart with id: 205
+2024-12-05T15:45:31.693+0100 INFO               [http-nio-8081-exec-4]         be.pxl.services.controller.ProductController - Getting product with id : 503
+2024-12-05T15:45:31.719+0100 INFO               [http-nio-8082-exec-9]         be.pxl.services.services.CartService - Product with id503  added to cart
+2024-12-05T15:45:31.720+0100 INFO               [http-nio-8082-exec-9]         be.pxl.services.services.CartService - Shoppingcart has item : 1 itemstest2
+2024-12-05T15:45:32.842+0100 INFO               [http-nio-8082-exec-10]        be.pxl.services.controller.ShoppingCartController - Adding product with id: 552 to cart with id: 205
+2024-12-05T15:45:32.849+0100 INFO               [http-nio-8081-exec-3]         be.pxl.services.controller.ProductController - Getting product with id : 552
+2024-12-05T15:45:32.866+0100 INFO               [http-nio-8082-exec-10]        be.pxl.services.services.CartService - Product with id552  added to cart
+2024-12-05T15:45:32.866+0100 INFO               [http-nio-8082-exec-10]        be.pxl.services.services.CartService - Shoppingcart has item : 2 itemstest2
+2024-12-05T15:45:34.359+0100 INFO               [http-nio-8081-exec-7]         be.pxl.services.controller.ProductController - Getting product with id : 552
+2024-12-05T15:46:43.824+0100 INFO               [http-nio-8081-exec-10]        be.pxl.services.controller.ProductController - Getting product with id : 552
+2024-12-05T15:48:21.851+0100 INFO               [main]                         be.pxl.services.ShoppingCartServiceApp - Starting ShoppingCartServiceApp using Java 21.0.2 with PID 16908 (D:\fullstack Java Labs\learning-microservices-with-spring-cloud-BennethKaminskiPXL\backend-java\DuurzaamShopPlatform\shoppingcart-service\target\classes started by kamin in D:\fullstack Java Labs\learning-microservices-with-spring-cloud-BennethKaminskiPXL\backend-java)
+2024-12-05T15:48:21.852+0100 DEBUG              [main]                         be.pxl.services.ShoppingCartServiceApp - Running with Spring Boot v3.3.4, Spring v6.1.13
+2024-12-05T15:48:21.853+0100 INFO               [main]                         be.pxl.services.ShoppingCartServiceApp - No active profile set, falling back to 1 default profile: "default"
+2024-12-05T15:48:25.431+0100 INFO               [main]                         be.pxl.services.ShoppingCartServiceApp - Started ShoppingCartServiceApp in 4.446 seconds (process running for 5.048)
+2024-12-05T15:49:45.523+0100 INFO               [http-nio-8081-exec-6]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T15:49:46.736+0100 INFO               [http-nio-8082-exec-3]         be.pxl.services.controller.ShoppingCartController - Adding product with id: 503 to cart with id: 252
+2024-12-05T15:49:46.802+0100 INFO               [http-nio-8081-exec-1]         be.pxl.services.controller.ProductController - Getting product with id : 503
+2024-12-05T15:49:46.863+0100 INFO               [http-nio-8082-exec-3]         be.pxl.services.services.CartService - Product with id503  added to cart
+2024-12-05T15:49:46.863+0100 INFO               [http-nio-8082-exec-3]         be.pxl.services.services.CartService - Shoppingcart has item : 1 itemstest2
+2024-12-05T15:49:46.901+0100 INFO               [http-nio-8082-exec-4]         be.pxl.services.controller.ShoppingCartController - Adding product with id: 503 to cart with id: 252
+2024-12-05T15:49:46.909+0100 INFO               [http-nio-8081-exec-2]         be.pxl.services.controller.ProductController - Getting product with id : 503
+2024-12-05T15:49:46.914+0100 INFO               [http-nio-8082-exec-4]         be.pxl.services.services.CartService - Product with id503  added to cart
+2024-12-05T15:49:47.058+0100 INFO               [http-nio-8082-exec-5]         be.pxl.services.controller.ShoppingCartController - Adding product with id: 503 to cart with id: 252
+2024-12-05T15:49:47.066+0100 INFO               [http-nio-8081-exec-4]         be.pxl.services.controller.ProductController - Getting product with id : 503
+2024-12-05T15:49:47.073+0100 INFO               [http-nio-8082-exec-5]         be.pxl.services.services.CartService - Product with id503  added to cart
+2024-12-05T15:49:47.578+0100 INFO               [http-nio-8082-exec-6]         be.pxl.services.controller.ShoppingCartController - Adding product with id: 552 to cart with id: 252
+2024-12-05T15:49:47.588+0100 INFO               [http-nio-8081-exec-3]         be.pxl.services.controller.ProductController - Getting product with id : 552
+2024-12-05T15:49:47.611+0100 INFO               [http-nio-8082-exec-6]         be.pxl.services.services.CartService - Product with id552  added to cart
+2024-12-05T15:49:47.612+0100 INFO               [http-nio-8082-exec-6]         be.pxl.services.services.CartService - Shoppingcart has item : 2 itemstest2
+2024-12-05T15:49:47.745+0100 INFO               [http-nio-8082-exec-7]         be.pxl.services.controller.ShoppingCartController - Adding product with id: 552 to cart with id: 252
+2024-12-05T15:49:47.755+0100 INFO               [http-nio-8081-exec-7]         be.pxl.services.controller.ProductController - Getting product with id : 552
+2024-12-05T15:49:47.761+0100 INFO               [http-nio-8082-exec-7]         be.pxl.services.services.CartService - Product with id552  added to cart
+2024-12-05T15:49:49.842+0100 INFO               [http-nio-8081-exec-8]         be.pxl.services.controller.ProductController - Getting product with id : 552
+2024-12-05T15:49:49.848+0100 INFO               [http-nio-8082-exec-9]         be.pxl.services.services.CartService - 1 Product with id552  removed from cart with id252
+2024-12-05T15:49:52.412+0100 INFO               [http-nio-8081-exec-5]         be.pxl.services.controller.ProductController - Getting product with id : 552
+2024-12-05T15:49:52.419+0100 INFO               [http-nio-8082-exec-1]         be.pxl.services.services.CartService - Product with id552  removed from cart with id252
+2024-12-05T15:49:57.390+0100 INFO               [http-nio-8081-exec-10]        be.pxl.services.controller.ProductController - Getting product with id : 503
+2024-12-05T15:49:57.395+0100 INFO               [http-nio-8082-exec-3]         be.pxl.services.services.CartService - 1 Product with id503  removed from cart with id252
+2024-12-05T15:49:58.216+0100 INFO               [http-nio-8081-exec-9]         be.pxl.services.controller.ProductController - Getting product with id : 503
+2024-12-05T15:49:58.222+0100 INFO               [http-nio-8082-exec-5]         be.pxl.services.services.CartService - 1 Product with id503  removed from cart with id252
+2024-12-05T15:49:58.643+0100 INFO               [http-nio-8081-exec-6]         be.pxl.services.controller.ProductController - Getting product with id : 503
+2024-12-05T15:49:58.650+0100 INFO               [http-nio-8082-exec-7]         be.pxl.services.services.CartService - Product with id503  removed from cart with id252
+2024-12-05T17:58:15.472+0100 INFO               [main]                         be.pxl.services.ProductCatalogApp - Starting ProductCatalogApp using Java 21.0.2 with PID 29252 (D:\fullstack Java Labs\learning-microservices-with-spring-cloud-BennethKaminskiPXL\backend-java\DuurzaamShopPlatform\productcatalog-service\target\classes started by kamin in D:\fullstack Java Labs\learning-microservices-with-spring-cloud-BennethKaminskiPXL\backend-java)
+2024-12-05T17:58:15.474+0100 DEBUG              [main]                         be.pxl.services.ProductCatalogApp - Running with Spring Boot v3.3.4, Spring v6.1.13
+2024-12-05T17:58:15.474+0100 INFO               [main]                         be.pxl.services.ProductCatalogApp - No active profile set, falling back to 1 default profile: "default"
+2024-12-05T17:58:19.098+0100 INFO               [main]                         be.pxl.services.ShoppingCartServiceApp - Starting ShoppingCartServiceApp using Java 21.0.2 with PID 11872 (D:\fullstack Java Labs\learning-microservices-with-spring-cloud-BennethKaminskiPXL\backend-java\DuurzaamShopPlatform\shoppingcart-service\target\classes started by kamin in D:\fullstack Java Labs\learning-microservices-with-spring-cloud-BennethKaminskiPXL\backend-java)
+2024-12-05T17:58:19.099+0100 DEBUG              [main]                         be.pxl.services.ShoppingCartServiceApp - Running with Spring Boot v3.3.4, Spring v6.1.13
+2024-12-05T17:58:19.099+0100 INFO               [main]                         be.pxl.services.ShoppingCartServiceApp - No active profile set, falling back to 1 default profile: "default"
+2024-12-05T17:58:20.227+0100 INFO               [main]                         be.pxl.services.ProductCatalogApp - Started ProductCatalogApp in 5.547 seconds (process running for 7.212)
+2024-12-05T17:58:23.072+0100 INFO               [main]                         be.pxl.services.ShoppingCartServiceApp - Started ShoppingCartServiceApp in 4.867 seconds (process running for 5.547)
+2024-12-05T17:58:27.562+0100 INFO               [main]                         be.pxl.services.LogbookServiceApp - Starting LogbookServiceApp using Java 21 with PID 25372 (D:\fullstack Java Labs\learning-microservices-with-spring-cloud-BennethKaminskiPXL\backend-java\DuurzaamShopPlatform\logbook-service\target\classes started by kamin in D:\fullstack Java Labs\learning-microservices-with-spring-cloud-BennethKaminskiPXL\backend-java)
+2024-12-05T17:58:27.563+0100 DEBUG              [main]                         be.pxl.services.LogbookServiceApp - Running with Spring Boot v3.3.4, Spring v6.1.13
+2024-12-05T17:58:27.563+0100 INFO               [main]                         be.pxl.services.LogbookServiceApp - No active profile set, falling back to 1 default profile: "default"
+2024-12-05T17:58:30.893+0100 INFO               [main]                         be.pxl.services.LogbookServiceApp - Started LogbookServiceApp in 4.227 seconds (process running for 4.947)
+2024-12-05T18:13:36.981+0100 INFO               [http-nio-8081-exec-1]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T18:13:41.214+0100 INFO               [http-nio-8082-exec-2]         be.pxl.services.controller.ShoppingCartController - Adding product with id: 503 to cart with id: 302
+2024-12-05T18:13:41.344+0100 INFO               [http-nio-8081-exec-2]         be.pxl.services.controller.ProductController - Getting product with id : 503
+2024-12-05T18:13:41.415+0100 INFO               [http-nio-8082-exec-2]         be.pxl.services.services.CartService - Product with id503  added to cart
+2024-12-05T18:13:41.415+0100 INFO               [http-nio-8082-exec-2]         be.pxl.services.services.CartService - Shoppingcart has item : 1 itemstest2
+2024-12-05T18:13:41.615+0100 INFO               [http-nio-8082-exec-3]         be.pxl.services.controller.ShoppingCartController - Adding product with id: 503 to cart with id: 302
+2024-12-05T18:13:41.623+0100 INFO               [http-nio-8081-exec-3]         be.pxl.services.controller.ProductController - Getting product with id : 503
+2024-12-05T18:13:41.629+0100 INFO               [http-nio-8082-exec-3]         be.pxl.services.services.CartService - Product with id503  added to cart
+2024-12-05T18:13:42.349+0100 INFO               [http-nio-8082-exec-4]         be.pxl.services.controller.ShoppingCartController - Adding product with id: 553 to cart with id: 302
+2024-12-05T18:13:42.357+0100 INFO               [http-nio-8081-exec-4]         be.pxl.services.controller.ProductController - Getting product with id : 553
+2024-12-05T18:13:42.376+0100 INFO               [http-nio-8082-exec-4]         be.pxl.services.services.CartService - Product with id553  added to cart
+2024-12-05T18:13:42.376+0100 INFO               [http-nio-8082-exec-4]         be.pxl.services.services.CartService - Shoppingcart has item : 2 itemstest2
+2024-12-05T18:13:42.573+0100 INFO               [http-nio-8082-exec-5]         be.pxl.services.controller.ShoppingCartController - Adding product with id: 553 to cart with id: 302
+2024-12-05T18:13:42.582+0100 INFO               [http-nio-8081-exec-5]         be.pxl.services.controller.ProductController - Getting product with id : 553
+2024-12-05T18:13:42.589+0100 INFO               [http-nio-8082-exec-5]         be.pxl.services.services.CartService - Product with id553  added to cart
+2024-12-05T18:13:42.807+0100 INFO               [http-nio-8082-exec-6]         be.pxl.services.controller.ShoppingCartController - Adding product with id: 553 to cart with id: 302
+2024-12-05T18:13:42.817+0100 INFO               [http-nio-8081-exec-6]         be.pxl.services.controller.ProductController - Getting product with id : 553
+2024-12-05T18:13:42.823+0100 INFO               [http-nio-8082-exec-6]         be.pxl.services.services.CartService - Product with id553  added to cart
+2024-12-05T18:13:44.592+0100 INFO               [http-nio-8082-exec-7]         be.pxl.services.controller.ShoppingCartController - Adding product with id: 602 to cart with id: 302
+2024-12-05T18:13:44.604+0100 INFO               [http-nio-8081-exec-7]         be.pxl.services.controller.ProductController - Getting product with id : 602
+2024-12-05T18:13:44.627+0100 INFO               [http-nio-8082-exec-7]         be.pxl.services.services.CartService - Product with id602  added to cart
+2024-12-05T18:13:44.627+0100 INFO               [http-nio-8082-exec-7]         be.pxl.services.services.CartService - Shoppingcart has item : 3 itemstest2
+2024-12-05T18:13:47.930+0100 INFO               [http-nio-8081-exec-8]         be.pxl.services.controller.ProductController - Getting product with id : 503
+2024-12-05T18:13:47.944+0100 INFO               [http-nio-8082-exec-9]         be.pxl.services.services.CartService - 1 Product with id503  removed from cart with id302
+2024-12-05T18:15:59.864+0100 INFO               [http-nio-8081-exec-1]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T18:16:01.479+0100 INFO               [http-nio-8082-exec-6]         be.pxl.services.controller.ShoppingCartController - Adding product with id: 503 to cart with id: 303
+2024-12-05T18:16:01.488+0100 INFO               [http-nio-8081-exec-2]         be.pxl.services.controller.ProductController - Getting product with id : 503
+2024-12-05T18:16:01.507+0100 INFO               [http-nio-8082-exec-6]         be.pxl.services.services.CartService - Product with id503  added to cart
+2024-12-05T18:16:01.507+0100 INFO               [http-nio-8082-exec-6]         be.pxl.services.services.CartService - Shoppingcart has item : 1 itemstest2
+2024-12-05T18:16:01.653+0100 INFO               [http-nio-8082-exec-7]         be.pxl.services.controller.ShoppingCartController - Adding product with id: 503 to cart with id: 303
+2024-12-05T18:16:01.663+0100 INFO               [http-nio-8081-exec-3]         be.pxl.services.controller.ProductController - Getting product with id : 503
+2024-12-05T18:16:01.672+0100 INFO               [http-nio-8082-exec-7]         be.pxl.services.services.CartService - Product with id503  added to cart
+2024-12-05T18:16:02.148+0100 INFO               [http-nio-8082-exec-8]         be.pxl.services.controller.ShoppingCartController - Adding product with id: 552 to cart with id: 303
+2024-12-05T18:16:02.155+0100 INFO               [http-nio-8081-exec-4]         be.pxl.services.controller.ProductController - Getting product with id : 552
+2024-12-05T18:16:02.172+0100 INFO               [http-nio-8082-exec-8]         be.pxl.services.services.CartService - Product with id552  added to cart
+2024-12-05T18:16:02.172+0100 INFO               [http-nio-8082-exec-8]         be.pxl.services.services.CartService - Shoppingcart has item : 2 itemstest2
+2024-12-05T18:18:00.384+0100 INFO               [http-nio-8081-exec-7]         be.pxl.services.controller.ProductController - Getting all products
+2024-12-05T18:18:01.767+0100 INFO               [http-nio-8082-exec-6]         be.pxl.services.controller.ShoppingCartController - Adding product with id: 503 to cart with id: 304
+2024-12-05T18:18:01.777+0100 INFO               [http-nio-8081-exec-8]         be.pxl.services.controller.ProductController - Getting product with id : 503
+2024-12-05T18:18:01.798+0100 INFO               [http-nio-8082-exec-6]         be.pxl.services.services.CartService - Product with id503  added to cart
+2024-12-05T18:18:01.798+0100 INFO               [http-nio-8082-exec-6]         be.pxl.services.services.CartService - Shoppingcart has item : 1 itemstest2
+2024-12-05T18:18:01.921+0100 INFO               [http-nio-8082-exec-7]         be.pxl.services.controller.ShoppingCartController - Adding product with id: 503 to cart with id: 304
+2024-12-05T18:18:01.929+0100 INFO               [http-nio-8081-exec-9]         be.pxl.services.controller.ProductController - Getting product with id : 503
+2024-12-05T18:18:01.935+0100 INFO               [http-nio-8082-exec-7]         be.pxl.services.services.CartService - Product with id503  added to cart
+2024-12-05T18:18:02.100+0100 INFO               [http-nio-8082-exec-8]         be.pxl.services.controller.ShoppingCartController - Adding product with id: 503 to cart with id: 304
+2024-12-05T18:18:02.109+0100 INFO               [http-nio-8081-exec-10]        be.pxl.services.controller.ProductController - Getting product with id : 503
+2024-12-05T18:18:02.114+0100 INFO               [http-nio-8082-exec-8]         be.pxl.services.services.CartService - Product with id503  added to cart
+2024-12-05T18:18:02.803+0100 INFO               [http-nio-8082-exec-9]         be.pxl.services.controller.ShoppingCartController - Adding product with id: 552 to cart with id: 304
+2024-12-05T18:18:02.813+0100 INFO               [http-nio-8081-exec-1]         be.pxl.services.controller.ProductController - Getting product with id : 552
+2024-12-05T18:18:02.833+0100 INFO               [http-nio-8082-exec-9]         be.pxl.services.services.CartService - Product with id552  added to cart
+2024-12-05T18:18:02.834+0100 INFO               [http-nio-8082-exec-9]         be.pxl.services.services.CartService - Shoppingcart has item : 2 itemstest2
+2024-12-05T18:18:03.012+0100 INFO               [http-nio-8082-exec-10]        be.pxl.services.controller.ShoppingCartController - Adding product with id: 552 to cart with id: 304
+2024-12-05T18:18:03.021+0100 INFO               [http-nio-8081-exec-2]         be.pxl.services.controller.ProductController - Getting product with id : 552
+2024-12-05T18:18:03.029+0100 INFO               [http-nio-8082-exec-10]        be.pxl.services.services.CartService - Product with id552  added to cart
+2024-12-05T18:18:03.144+0100 INFO               [http-nio-8082-exec-1]         be.pxl.services.controller.ShoppingCartController - Adding product with id: 552 to cart with id: 304
+2024-12-05T18:18:03.156+0100 INFO               [http-nio-8081-exec-3]         be.pxl.services.controller.ProductController - Getting product with id : 552
+2024-12-05T18:18:03.162+0100 INFO               [http-nio-8082-exec-1]         be.pxl.services.services.CartService - Product with id552  added to cart
