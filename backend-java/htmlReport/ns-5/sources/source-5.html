@@ -1,0 +1,91 @@
+
+
+
+<!DOCTYPE html>
+<html id="htmlId">
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"> 
+  <title>Coverage Report > ICatalogService</title>
+  <style type="text/css">
+    @import "../../css/coverage.css";
+    @import "../../css/idea.min.css";
+  </style>
+  <script type="text/javascript" src="../../js/highlight.min.js"></script>
+  <script type="text/javascript" src="../../js/highlightjs-line-numbers.min.js"></script>
+</head>
+
+<body>
+<div class="content">
+<div class="breadCrumbs">
+Current scope:     <a href="../../index.html">all classes</a>
+    <span class="separator">|</span>
+    <a href="../index.html">be.pxl.services.services</a>
+</div>
+
+<h1>Coverage Summary for Class: ICatalogService (be.pxl.services.services)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+</tr>
+<tr>
+  <td class="name">ICatalogService</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<pre>
+<code class="sourceCode" id="sourceCode">&nbsp;package be.pxl.services.services;
+&nbsp;
+&nbsp;import be.pxl.services.domain.dto.ProductRequest;
+&nbsp;import be.pxl.services.domain.dto.ProductResponse;
+&nbsp;import org.springframework.http.ResponseEntity;
+&nbsp;
+&nbsp;import java.util.List;
+&nbsp;
+&nbsp;public interface ICatalogService {
+&nbsp;    void addProduct(ProductRequest productRequest);
+&nbsp;
+&nbsp;    ResponseEntity&lt;List&lt;ProductResponse&gt;&gt; getProducts();
+&nbsp;
+&nbsp;    ProductResponse updateProduct(Long id, ProductRequest productRequest);
+&nbsp;
+&nbsp;    ResponseEntity&lt;List&lt;ProductResponse&gt;&gt; getProductsByCategory(String category);
+&nbsp;
+&nbsp;    ResponseEntity&lt;List&lt;ProductResponse&gt;&gt; getProductsByLabel(String label);
+&nbsp;
+&nbsp;    void deleteProduct(String userName, Long id);
+&nbsp;
+&nbsp;    ProductResponse getProductById(Long id);
+&nbsp;}
+</code>
+</pre>
+</div>
+
+<script type="text/javascript">
+(function() {
+    var msie = false, msie9 = false;
+    /*@cc_on
+      msie = true;
+      @if (@_jscript_version >= 9)
+        msie9 = true;
+      @end
+    @*/
+
+    if (!msie || msie && msie9) {
+      hljs.highlightAll()
+      hljs.initLineNumbersOnLoad();
+    }
+})();
+</script>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2024-12-06 11:17</div>
+</div>
+</body>
+</html>

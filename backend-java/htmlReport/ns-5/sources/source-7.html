@@ -1,0 +1,92 @@
+
+
+
+<!DOCTYPE html>
+<html id="htmlId">
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"> 
+  <title>Coverage Report > ICartService</title>
+  <style type="text/css">
+    @import "../../css/coverage.css";
+    @import "../../css/idea.min.css";
+  </style>
+  <script type="text/javascript" src="../../js/highlight.min.js"></script>
+  <script type="text/javascript" src="../../js/highlightjs-line-numbers.min.js"></script>
+</head>
+
+<body>
+<div class="content">
+<div class="breadCrumbs">
+Current scope:     <a href="../../index.html">all classes</a>
+    <span class="separator">|</span>
+    <a href="../index.html">be.pxl.services.services</a>
+</div>
+
+<h1>Coverage Summary for Class: ICartService (be.pxl.services.services)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+</tr>
+<tr>
+  <td class="name">ICartService</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<pre>
+<code class="sourceCode" id="sourceCode">&nbsp;package be.pxl.services.services;
+&nbsp;
+&nbsp;import be.pxl.services.controller.dto.CartCheckoutResponse;
+&nbsp;import be.pxl.services.controller.dto.CartProductResponse;
+&nbsp;import be.pxl.services.controller.dto.ShoppingCartRequest;
+&nbsp;import be.pxl.services.domain.Product;
+&nbsp;import be.pxl.services.domain.ShoppingCartItem;
+&nbsp;
+&nbsp;import java.util.List;
+&nbsp;
+&nbsp;public interface ICartService {
+&nbsp;    long createCart();
+&nbsp;
+&nbsp;    void addProductToCart(long cartId, long productId, int quantity);
+&nbsp;
+&nbsp;    void removeProductFromCart(long cartId, long productId);
+&nbsp;
+&nbsp;    List&lt;CartProductResponse&gt; getProductsInCart(long cartId);
+&nbsp;
+&nbsp;    CartCheckoutResponse checkout(long cartId);
+&nbsp;
+&nbsp;    ShoppingCartItem mapToShoppingCartItem(Product product, int amount);
+&nbsp;
+&nbsp;}
+</code>
+</pre>
+</div>
+
+<script type="text/javascript">
+(function() {
+    var msie = false, msie9 = false;
+    /*@cc_on
+      msie = true;
+      @if (@_jscript_version >= 9)
+        msie9 = true;
+      @end
+    @*/
+
+    if (!msie || msie && msie9) {
+      hljs.highlightAll()
+      hljs.initLineNumbersOnLoad();
+    }
+})();
+</script>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2024-12-06 11:17</div>
+</div>
+</body>
+</html>

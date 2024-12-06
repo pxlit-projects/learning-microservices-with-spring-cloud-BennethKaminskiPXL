@@ -15,7 +15,7 @@ import java.util.List;
 
 @RequiredArgsConstructor
 @Service
-public class LogService {
+public class LogService implements ILogService {
     private final LogRepository logRepository;
     private static final Logger logger = LoggerFactory.getLogger(LogService.class);
 

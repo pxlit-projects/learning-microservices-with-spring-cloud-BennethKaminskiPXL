@@ -46,11 +46,6 @@ public class ProductCatalogTests {
     @Autowired
     private CatalogService catalogService;
 
-    @Mock
-    private ShoppingCartClient shoppingCartClient;
-
-
-
     @Container
     private static MySQLContainer sqlContainer =
             new MySQLContainer<>("mysql:5.7.37");
@@ -159,6 +154,7 @@ public class ProductCatalogTests {
     @Test
     public void deleteProductShouldDeleteProduct() throws Exception {
         Product product = Product.builder()
+                .id(1L)
                 .name("product")
                 .label("label")
                 .description("description")

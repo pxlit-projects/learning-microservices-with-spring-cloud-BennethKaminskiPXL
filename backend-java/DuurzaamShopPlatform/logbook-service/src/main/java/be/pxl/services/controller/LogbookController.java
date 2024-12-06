@@ -2,6 +2,7 @@ package be.pxl.services.controller;
 
 import be.pxl.services.controller.dto.LogEntityDto;
 import be.pxl.services.log.LogEntity;
+import be.pxl.services.services.ILogService;
 import be.pxl.services.services.LogService;
 import lombok.RequiredArgsConstructor;
 import org.slf4j.Logger;
@@ -19,7 +20,7 @@ import java.util.List;
 @RequestMapping("/api/logbook")
 @RequiredArgsConstructor
 public class LogbookController {
-    private final LogService logService;
+    private final ILogService logService;
     private static final Logger log = LoggerFactory.getLogger(LogbookController.class);
     @GetMapping
     @ResponseStatus(HttpStatus.OK)

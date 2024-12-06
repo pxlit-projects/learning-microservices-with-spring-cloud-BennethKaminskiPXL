@@ -1,0 +1,181 @@
+
+
+
+<!DOCTYPE html>
+<html id="htmlId">
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"> 
+  <title>Coverage Report > ProductController</title>
+  <style type="text/css">
+    @import "../../css/coverage.css";
+    @import "../../css/idea.min.css";
+  </style>
+  <script type="text/javascript" src="../../js/highlight.min.js"></script>
+  <script type="text/javascript" src="../../js/highlightjs-line-numbers.min.js"></script>
+</head>
+
+<body>
+<div class="content">
+<div class="breadCrumbs">
+Current scope:     <a href="../../index.html">all classes</a>
+    <span class="separator">|</span>
+    <a href="../index.html">be.pxl.services.controller</a>
+</div>
+
+<h1>Coverage Summary for Class: ProductController (be.pxl.services.controller)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Class, %
+</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">ProductController</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (1/1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    87,5%
+  </span>
+  <span class="absValue">
+    (7/8)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    86,7%
+  </span>
+  <span class="absValue">
+    (13/15)
+  </span>
+</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<pre>
+<code class="sourceCode" id="sourceCode">&nbsp;package be.pxl.services.controller;
+&nbsp;
+&nbsp;import be.pxl.services.domain.dto.ProductRequest;
+&nbsp;import be.pxl.services.domain.dto.ProductResponse;
+&nbsp;import be.pxl.services.services.ICatalogService;
+&nbsp;import lombok.RequiredArgsConstructor;
+&nbsp;import org.slf4j.Logger;
+&nbsp;import org.slf4j.LoggerFactory;
+&nbsp;import org.springframework.http.HttpStatus;
+&nbsp;import org.springframework.http.ResponseEntity;
+&nbsp;import org.springframework.web.bind.annotation.*;
+&nbsp;
+&nbsp;import java.util.List;
+&nbsp;
+&nbsp;@RestController
+&nbsp;@RequestMapping(&quot;/api/catalog&quot;)
+&nbsp;@RequiredArgsConstructor
+&nbsp;public class ProductController {
+&nbsp;    private final ICatalogService catalogService;
+<b class="fc">&nbsp;    private static final Logger log = LoggerFactory.getLogger(ProductController.class);</b>
+&nbsp;
+&nbsp;
+&nbsp;    //producten toevoegen
+&nbsp;    @PostMapping
+&nbsp;    @ResponseStatus(HttpStatus.CREATED)
+&nbsp;    public void addProduct(@RequestBody ProductRequest productRequest){
+<b class="fc">&nbsp;        log.info(&quot;Adding product : &quot; + productRequest.getName() + &quot;by user : &quot; + productRequest.getUserName());</b>
+<b class="fc">&nbsp;        catalogService.addProduct(productRequest);</b>
+&nbsp;    }
+&nbsp;    //producten opvragen
+&nbsp;    @GetMapping
+&nbsp;    @ResponseStatus(HttpStatus.OK)
+&nbsp;    public ResponseEntity&lt;List&lt;ProductResponse&gt;&gt; getProducts(){
+<b class="fc">&nbsp;        log.info(&quot;Getting all products&quot;);</b>
+<b class="fc">&nbsp;        return catalogService.getProducts();</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    //producten opvragen op id
+&nbsp;    @GetMapping(&quot;/{id}&quot;)
+&nbsp;    @ResponseStatus(HttpStatus.OK)
+&nbsp;    public ProductResponse getProductById(@PathVariable Long id){
+<b class="nc">&nbsp;        log.info(&quot;Getting product with id : &quot; + id);</b>
+<b class="nc">&nbsp;        return catalogService.getProductById(id);</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    //producten verwijderen
+&nbsp;    @DeleteMapping(&quot;/{userName}/{id}&quot;)
+&nbsp;    @ResponseStatus(HttpStatus.ACCEPTED)
+&nbsp;    public void deleteProduct(@PathVariable String userName, @PathVariable Long id){
+<b class="fc">&nbsp;        log.info(&quot;Deleting product with id : &quot; + id);</b>
+<b class="fc">&nbsp;        catalogService.deleteProduct(userName, id );</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    //producten veranderen
+&nbsp;    @PutMapping(&quot;/{id}&quot;)
+&nbsp;    @ResponseStatus(HttpStatus.ACCEPTED)
+&nbsp;    public ProductResponse updateProduct(@PathVariable Long id, @RequestBody ProductRequest productRequest) {
+<b class="fc">&nbsp;        log.info(&quot;Updating product with id : &quot; + id + &quot;by user : &quot; + productRequest.getUserName());</b>
+&nbsp;    return
+<b class="fc">&nbsp;        catalogService.updateProduct(id, productRequest);</b>
+&nbsp;    }
+&nbsp;    //producten krijgen op category
+&nbsp;    @GetMapping(&quot;/category/{category}&quot;)
+&nbsp;    @ResponseStatus(HttpStatus.OK)
+&nbsp;    public ResponseEntity&lt;List&lt;ProductResponse&gt;&gt; getProductsByCategory(@PathVariable String category){
+<b class="fc">&nbsp;        log.info(&quot;Getting products by category : &quot; + category);</b>
+<b class="fc">&nbsp;        return catalogService.getProductsByCategory(category);</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    //producten krijgen op label
+&nbsp;    @GetMapping(&quot;/label/{label}&quot;)
+&nbsp;    @ResponseStatus(HttpStatus.OK)
+&nbsp;    public ResponseEntity&lt;List&lt;ProductResponse&gt;&gt; getProductsByLabel(@PathVariable String label){
+<b class="fc">&nbsp;        log.info(&quot;Getting products by label : &quot; + label);</b>
+<b class="fc">&nbsp;        return catalogService.getProductsByLabel(label);</b>
+&nbsp;    }
+&nbsp;}
+</code>
+</pre>
+</div>
+
+<script type="text/javascript">
+(function() {
+    var msie = false, msie9 = false;
+    /*@cc_on
+      msie = true;
+      @if (@_jscript_version >= 9)
+        msie9 = true;
+      @end
+    @*/
+
+    if (!msie || msie && msie9) {
+      hljs.highlightAll()
+      hljs.initLineNumbersOnLoad();
+    }
+})();
+</script>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2024-12-06 11:17</div>
+</div>
+</body>
+</html>
