@@ -27,6 +27,9 @@
       </div>
       <button type="submit">Submit</button>
     </form>
+    <div v-if="showMessage" class="message">
+      <p>Product added successfully!</p>
+    </div>
   </div>
 </template>
 
@@ -50,16 +53,23 @@ export default {
       userName: ""
     });
 
+    const showMessage = ref(false);
+
     const categories = computed(() => catalogStore.categories);
 
     const submitForm = () => {
       catalogStore.addProduct(product.value);
+      showMessage.value = true;
+      setTimeout(() => {
+        showMessage.value = false;
+      }, 3000);
     };
 
     return {
       product,
       categories,
       submitForm,
+      showMessage
     };
   }
 };

@@ -35,6 +35,9 @@
         </div>
         <button type="submit">Edit</button>
       </form>
+      <div v-if="showMessage" class="message">
+      <p>Product edited successfully!</p>
+    </div>
     </div>
   </template>
   
@@ -58,7 +61,12 @@
   
       const submitForm = async () => {
         await catalogStore.editProduct(product.value);
+        showMessage.value = true;
+      setTimeout(() => {
+        showMessage.value = false;
+      }, 3000);
       };
+      const showMessage = ref(false);
 
       const giveId = async () => {
        const targetProduct =  await catalogStore.getProduct(id.value);
@@ -87,6 +95,7 @@
         categories,
         submitForm,
         giveId,
+        showMessage
       };
     }
   };
